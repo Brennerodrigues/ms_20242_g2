@@ -22,7 +22,7 @@ Este projeto será desenvolvido pelos componentes do grupo 2:
 |202400418|BRENNER RODRIGUES SARDINHA|[brennerodrigues](https://github.com/brennerodrigues)|
 |202403074|HEITOR BARBOSA SOUZA|[heitor-barbosa](https://github.com/heitor-barbosa)|
 |202403073|GABRIEL TESSAROLO HELMER|[gthUFG](https://github.com/gthUFG)|
-|202004771|MIKHAEL MACHADO FERNANDES MAIA|[<usuario_github>](https://github.com/<usuario_github>)|
+|202004771|Luiz Augusto Godinho de Pina Vaz Monteiro|[luizaugusto01](https://github.com/luizaugusto01)|
 
 ### Backlog do Produto
 
