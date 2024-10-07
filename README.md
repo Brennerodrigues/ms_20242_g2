@@ -94,9 +94,9 @@ O nosso planejamento inicial é hospedar nossa aplicação no Heroku ou no Fireb
 |---|---|---|---|---|---|
 |1|Definição do grupo de trabalho|01/09/2024|03/09/2024|Grupo|Concluída|
 |1|Definição do Tema do Trabalho|01/09/2024|03/09/2024|Grupo|Concluída|
-|2|Definição do Backlog do produto|10/09/2024|10/09/2024|Grupo|Programada|
-|2|Descrição dos itens do backlog do produto|13/09/2024|24/09/2024|Grupo|Programada|
-|2|Distribuição dos itens do backlog entre as iterações|13/09/2024|24/09/2024|Grupo|Programada|
+|2|Definição do Backlog do produto|10/09/2024|10/09/2024|Grupo|Concluída|
+|2|Descrição dos itens do backlog do produto|13/09/2024|24/09/2024|Grupo|Concluída|
+|2|Distribuição dos itens do backlog entre as iterações|13/09/2024|24/09/2024|Grupo|Concluída|
 |2|Definição do modelo arquitetural|00/00/2024|00/00/2024|Grupo|Programada|
 |3|Especificação de estórias de usuários dos Item(ns) do backlog <x,y,z>|00/00/2024|00/00/2024||Programada|
 |3|Diagrama de classes dos Item(ns) do backlog <x,y,z>|00/00/2024|00/00/2024||Programada|
