@@ -26,9 +26,9 @@ Este projeto será desenvolvido pelos componentes do grupo 2:
 
 ### Backlog do Produto
 
-1. RF001 - ###Cadastro da empresa/ instituição <Como administrador de empresa/instituição, Quero cadastrar minha empresa, assim como
+1. RF001 - Cadastro da empresa/ instituição <Como administrador de empresa/instituição, Quero cadastrar minha empresa, assim como
 repassar minhas informações restritas, Para obter acesso ao Letralivre>.
-2. RF002 - ###Mudar senha / esqueci a senha <Como usuário cadastrado, eu quero poder trocar de senha para que consiga acessar
+2. RF002 - Mudar senha / esqueci a senha <Como usuário cadastrado, eu quero poder trocar de senha para que consiga acessar
 novamente minha conta caso tenha esquecido>.
 3. RF003 - Cadastro de alunos <Como administrador da empresa/instituição, Quero cadastrar meus alunos que utilizarão o
 software, assim como seu nível de escolaridade, Para que eles tenham acesso ao Letralivre>.
