@@ -8,7 +8,7 @@ Letralivre
 Nosso aplicativo de alfabetização oferece uma abordagem inovadora e interativa para a alfabetização, combinando métodos modernos e motivadores para usuários de todas as idades. Inspirado no estilo envolvente do Duolingo, o nosso aplicativo garante uma experiência de aprendizado eficiente e divertida.
 
 ### Problema
-Atualmente o anlfabetismo acaba por excluir, aqueles que são afetados, do meio social. Envolto a essa temática, percebemos a excasses de ferramentas para a alfabetização de maiores de idade, que proporcione resultados satisfatórios. 
+O anlfabetismo acaba por excluir, aqueles que são afetados, do meio social. Envolto a essa temática, percebemos a excasses de ferramentas para a alfabetização de maiores de idade, que proporcione resultados satisfatórios. 
 
 ### Objetivos da Solução
 O software foi desenvolvido para o acompanhamento da alfabetização de forma inclusiva e tecnologica para maiores de idade, visando proporcionar o monitoramento dos usuários às instituições utilizadoras, com relatórios de acompanhamento de cada usuário, além da flexibilidade proporcionada a cada instituição a respeito da metodologia de enssino adotada.
