@@ -5,13 +5,13 @@ Repositório definido para a manutenção do controle de versão dos artefatos d
 Letralivre
 
 ### Descrição:
-Descrever o projeto
+Nosso aplicativo de alfabetização oferece uma abordagem inovadora e interativa para a alfabetização, combinando métodos modernos e motivadores para usuários de todas as idades. Inspirado no estilo envolvente do Duolingo, o nosso aplicativo garante uma experiência de aprendizado eficiente e divertida.
 
 ### Problema
-Descrever o projeto
+Atualmente o anlfabetismo acaba por excluir, aqueles que são afetados, do meio social. Envolto a essa temática, percebemos a excasses de ferramentas para a alfabetização de maiores de idade, que proporcione resultados satisfatórios. 
 
 ### Objetivos da Solução
-Descrever os objetivos da solução
+O software foi desenvolvido para o acompanhamento da alfabetização de forma inclusiva e tecnologica para maiores de idade, visando proporcionar o monitoramento dos usuários às instituições utilizadoras, com relatórios de acompanhamento de cada usuário, além da flexibilidade proporcionada a cada instituição a respeito da metodologia de enssino adotada.
 
 ### Grupo
 Este projeto será desenvolvido pelos componentes do grupo 2:
@@ -22,7 +22,7 @@ Este projeto será desenvolvido pelos componentes do grupo 2:
 |202400418|BRENNER RODRIGUES SARDINHA|[brennerodrigues](https://github.com/brennerodrigues)|
 |202403074|HEITOR BARBOSA SOUZA|[heitor-barbosa](https://github.com/heitor-barbosa)|
 |202403073|GABRIEL TESSAROLO HELMER|[gthUFG](https://github.com/gthUFG)|
-|202004771|Luiz Augusto Godinho de Pina Vaz Monteiro|[luizaugusto01](https://github.com/luizaugusto01)|
+|202004771|LUIZ AUGUSTO GODINHO DE PINA VAZ MONTEIRO|[luizaugusto01](https://github.com/luizaugusto01)|
 
 ### Backlog do Produto
 
