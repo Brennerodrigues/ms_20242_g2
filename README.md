@@ -92,43 +92,43 @@ O nosso planejamento inicial é hospedar nossa aplicação no Heroku ou no Fireb
 ### Iterações x Atividades
 |Iteração|Tarefa|Data Início|Data Fim|Responsável|Situação|
 |---|---|---|---|---|---|
-|1|Definição do grupo de trabalho|30/08/2024|30/08/2024|Grupo|Concluída|
-|1|Definição do Tema do Trabalho|30/08/2024|13/09/2024|Grupo|Concluída|
-|2|Definição do Backlog do produto|13/09/2024|27/09/2024|Grupo|Programada|
-|2|Descrição dos itens do backlog do produto|14/09/2024|27/09/2024|Grupo|Programada|
-|2|Distribuição dos itens do backlog entre as iterações|14/09/2024|27/09/2024|Grupo|Programada|
-|2|Definição do modelo arquitetural|14/09/2024|27/09/2024|Grupo|Programada|
-|3|Especificação de estórias de usuários dos Item(ns) do backlog <x,y,z>|28/09/2024|11/10/2024||Programada|
-|3|Diagrama de classes dos Item(ns) do backlog <x,y,z>|28/09/2024|11/10/2024||Programada|
-|3|Diagrama de interação/sequencia dos itens do backlog <x,y,z>|28/09/2024|11/10/2024||Programada|
-|3|Projeto de Interfaces gráficas dos itens do backlog <x,y,z>|28/09/2024|11/10/2024||Programada|
-|3|Projeto de persistência dos itens do backlog <x,y,z>|28/09/2024|11/10/2024||Programada|
-|3|Implementação dos itens do backlog <x,y,z>*|28/09/2024|11/10/2024||Programada|
-|4|Especificação de estórias de usuários dos Item(ns) do backlog <x,y,z>|12/10/2024|25/10/2024||Programada|
-|4|Diagrama de classes dos Item(ns) do backlog <x,y,z>|12/10/2024|25/10/2024||Programada|
-|4|Diagrama de interação/sequencia dos itens do backlog <x,y,z>|12/10/2024|25/10/2024||Programada|
-|4|Projeto de Interfaces gráficas dos itens do backlog <x,y,z>|12/10/2024|25/10/2024||Programada|
-|4|Projeto de persistência dos itens do backlog <x,y,z>|12/10/2024|25/10/2024||Programada|
-|4|Implementação dos itens do backlog <x,y,z>*|12/10/2024|25/10/2024||Programada|
-|5|Especificação de estórias de usuários dos Item(ns) do backlog <x,y,z>|26/10/2024|08/11/2024||Programada|
-|5|Diagrama de classes dos Item(ns) do backlog <x,y,z>|26/10/2024|08/11/2024||Programada|
-|5|Diagrama de interação/sequencia dos itens do backlog <x,y,z>|26/10/2024|08/11/2024||Programada|
-|5|Projeto de Interfaces gráficas dos itens do backlog <x,y,z>|26/10/2024|08/11/2024||Programada|
-|5|Projeto de persistência dos itens do backlog <x,y,z>|26/10/2024|08/11/2024||Programada|
-|5|Implementação dos itens do backlog <x,y,z>*|26/10/2024|08/11/2024||Programada|
-|6|Especificação de estórias de usuários dos Item(ns) do backlog <x,y,z>|09/11/2024|22/11/2024||Programada|
-|6|Diagrama de classes dos Item(ns) do backlog <x,y,z>|09/11/2024|22/11/2024||Programada|
-|6|Diagrama de interação/sequencia dos itens do backlog <x,y,z>|09/11/2024|22/11/2024||Programada|
-|6|Projeto de Interfaces gráficas dos itens do backlog <x,y,z>|09/11/2024|22/11/2024||Programada|
-|6|Projeto de persistência dos itens do backlog <x,y,z>|09/11/2024|22/11/2024||Programada|
-|6|Implementação dos itens do backlog <x,y,z>*|09/11/2024|22/11/2024||Programada|
-|7|Especificação de estórias de usuários dos Item(ns) do backlog <x,y,z>|23/11/2024|06/12/2024||Programada|
-|7|Diagrama de classes dos Item(ns) do backlog <x,y,z>|23/11/2024|06/12/2024||Programada|
-|7|Diagrama de interação/sequencia dos itens do backlog <x,y,z>|23/11/2024|06/12/2024||Programada|
-|7|Projeto de Interfaces gráficas dos itens do backlog <x,y,z>|23/11/2024|06/12/2024||Programada|
-|7|Projeto de persistência dos itens do backlog <x,y,z>|23/11/2024|06/12/2024||Programada|
-|7|Implementação dos itens do backlog <x,y,z>*|23/11/2024|06/12/2024||Programada|
-|8|Apresentação do Projeto|07/12/2024|20/12/2024|Grupo|Programada|
+|1|Definição do grupo de trabalho|01/09/2024|03/09/2024|Grupo|Concluída|
+|1|Definição do Tema do Trabalho|01/09/2024|03/09/2024|Grupo|Concluída|
+|2|Definição do Backlog do produto|10/09/2024|10/09/2024|Grupo|Programada|
+|2|Descrição dos itens do backlog do produto|13/09/2024|24/09/2024|Grupo|Programada|
+|2|Distribuição dos itens do backlog entre as iterações|13/09/2024|24/09/2024|Grupo|Programada|
+|2|Definição do modelo arquitetural|00/00/2024|00/00/2024|Grupo|Programada|
+|3|Especificação de estórias de usuários dos Item(ns) do backlog <x,y,z>|00/00/2024|00/00/2024||Programada|
+|3|Diagrama de classes dos Item(ns) do backlog <x,y,z>|00/00/2024|00/00/2024||Programada|
+|3|Diagrama de interação/sequencia dos itens do backlog <x,y,z>|00/00/2024|00/00/2024||Programada|
+|3|Projeto de Interfaces gráficas dos itens do backlog <x,y,z>|00/00/2024|00/00/2024||Programada|
+|3|Projeto de persistência dos itens do backlog <x,y,z>|00/00/2024|00/00/2024||Programada|
+|3|Implementação dos itens do backlog <x,y,z>*|00/00/2024|00/00/2024||Programada|
+|4|Especificação de estórias de usuários dos Item(ns) do backlog <x,y,z>|00/00/2024|00/00/2024||Programada|
+|4|Diagrama de classes dos Item(ns) do backlog <x,y,z>|00/00/2024|00/00/2024||Programada|
+|4|Diagrama de interação/sequencia dos itens do backlog <x,y,z>|00/00/2024|00/00/2024||Programada|
+|4|Projeto de Interfaces gráficas dos itens do backlog <x,y,z>|00/00/2024|00/00/2024||Programada|
+|4|Projeto de persistência dos itens do backlog <x,y,z>|00/00/2024|00/00/2024||Programada|
+|4|Implementação dos itens do backlog <x,y,z>*|00/00/2024|00/00/2024||Programada|
+|5|Especificação de estórias de usuários dos Item(ns) do backlog <x,y,z>|00/00/2024|00/00/2024||Programada|
+|5|Diagrama de classes dos Item(ns) do backlog <x,y,z>|00/00/2024|00/00/2024||Programada|
+|5|Diagrama de interação/sequencia dos itens do backlog <x,y,z>|00/00/2024|00/00/2024||Programada|
+|5|Projeto de Interfaces gráficas dos itens do backlog <x,y,z>|00/00/2024|00/00/2024||Programada|
+|5|Projeto de persistência dos itens do backlog <x,y,z>|00/00/2024|00/00/2024||Programada|
+|5|Implementação dos itens do backlog <x,y,z>*|00/00/2024|00/00/2024||Programada|
+|6|Especificação de estórias de usuários dos Item(ns) do backlog <x,y,z>|00/00/2024|00/00/2024||Programada|
+|6|Diagrama de classes dos Item(ns) do backlog <x,y,z>|00/00/2024|00/00/2024||Programada|
+|6|Diagrama de interação/sequencia dos itens do backlog <x,y,z>|00/00/2024|00/00/2024||Programada|
+|6|Projeto de Interfaces gráficas dos itens do backlog <x,y,z>|00/00/2024|00/00/2024||Programada|
+|6|Projeto de persistência dos itens do backlog <x,y,z>|00/00/2024|00/00/2024||Programada|
+|6|Implementação dos itens do backlog <x,y,z>*|00/00/2024|00/00/2024||Programada|
+|7|Especificação de estórias de usuários dos Item(ns) do backlog <x,y,z>|00/00/2024|00/00/2024||Programada|
+|7|Diagrama de classes dos Item(ns) do backlog <x,y,z>|00/00/2024|00/00/2024||Programada|
+|7|Diagrama de interação/sequencia dos itens do backlog <x,y,z>|00/00/2024|00/00/2024||Programada|
+|7|Projeto de Interfaces gráficas dos itens do backlog <x,y,z>|00/00/2024|00/00/2024||Programada|
+|7|Projeto de persistência dos itens do backlog <x,y,z>|00/00/2024|00/00/2024||Programada|
+|7|Implementação dos itens do backlog <x,y,z>*|00/00/2024|00/00/2024||Programada|
+|8|Apresentação do Projeto|00/00/2024|00/00/2024|Grupo|Programada|
 
 * Implementação se aplicará, se os itens da iteração em andamento, forem eleitos para validação do projeto do trabalho.
 
