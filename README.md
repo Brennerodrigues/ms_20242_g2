@@ -26,12 +26,26 @@ Este projeto será desenvolvido pelos componentes do grupo 2:
 
 ### Backlog do Produto
 
-1. RF001 - <Descrição do Requisito>.
-2. RF002 - <Descrição do Requisito>.
-3. RF003 - <Descrição do Requisito>.
-4. RF004 - <Descrição do Requisito>.
-5. RF005 - <Descrição do Requisito>.
-6. RF006 - <Descrição do Requisito>.
+1. RF001 - Cadastro da empresa/ instituição <Como administrador de empresa/instituição, Quero cadastrar minha empresa, assim como
+repassar minhas informações restritas, Para obter acesso ao Letralivre>.
+2. RF002 - Mudar senha / esqueci a senha <Como usuário cadastrado, eu quero poder trocar de senha para que consiga acessar
+novamente minha conta caso tenha esquecido>.
+3. RF003 - Cadastro de alunos <Como administrador da empresa/instituição, Quero cadastrar meus alunos que utilizarão o
+software, assim como seu nível de escolaridade, Para que eles tenham acesso ao Letralivre>.
+4. RF004 - Cadastro de professor(a)/tutor(a) <Como administrador da empresa/instituição, Quero cadastrar profissionais que auxiliarão
+na utilização do software, assim como sua área de atuação, Para que eles tenham acesso ao Letralivre>.
+5. RF005 - Tela de lista de alunos cadastrados <Como professor, eu quero poder ter acesso à lista de alunos cadastrados>.
+6. RF006 - Cadastrar, consultar e alterar nível de aluno <Como professor, eu quero poder cadastrar, consultar e/ou alterar o nível de um aluno para
+que os exercícios adequados sejam fornecidos>.
+7. RF007 - Sistema de Ranking e Recompensa <Como usuário, eu quero ter acesso a um sistema que mostre o desempenho dos melhores
+alunos (e um bônus de recompensas equivalente) em minha sala / escola, para que me sinta mais motivado / motive mais meus alunos a continuarem com seus estudos>.
+8. RF008 - Sistema de Feedback e Relatórios de Aprendizado <Como usuário, eu quero ter acesso a um sistema que mostre meu desempenho pessoal
+em dados de acertos/erros de questões e minha evolução de aprendizado, além de correções para os erros, para que possa ter uma boa base de como evoluir nos estudos>.
+9. RF009 - Perguntas frequentes <Como usuário, quero ter acesso às perguntas frequentes, para que possa esclarecer minhas dúvidas>.
+10. RF010 - Função para apresentar o aplicativo e suas funções <Como usuário entrando pela primeira vez, quero ser apresentado às principais funções do
+aplicativo e como navegar, para que eu entenda como utilizar o sistema>.
+11. RF011 - Configuração das informações do perfil (tipo de usuário, preferências e nível de conhecimento) <Como usuário entrando pela primeira vez, quero ser apresentado às configurações das informações do perfil, para que eu personalize o nível das atividades>.
+12. RF012 - Jogo iterativo <Como usuário cadastrado, eu quero fazer exercícios para que consiga passar de nível>.
 
 ### Requisitos Não Funcionais
 
