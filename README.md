@@ -49,13 +49,13 @@ aplicativo e como navegar, para que eu entenda como utilizar o sistema>.
 
 ### Requisitos Não Funcionais
 
-1. RNF001 - Usabilidade: <Descrição do Requisito não Funcional>.
-2. RNF002 - Segurança: <Descrição do Requisito não Funcional>..
-3. RNF003 - Desempenho: <Descrição do Requisito não Funcional>..
-4. RNF004 - Confiabilidade: <Descrição do Requisito não Funcional>.
-5. RNF005 - Manutenibilidade: <Descrição do Requisito não Funcional>.
-6. RNF006 - Portabilidade: <Descrição do Requisito não Funcional>.
-7. RNF007 - Conectividade: <Descrição do Requisito não Funcional>.
+1. RNF001 - Usabilidade: A interface deve ser intuitiva, fácil de usar e proporcionar uma navegação eficiente, com feedback claro para os usuários.
+2. RNF002 - Segurança: O sistema deve garantir a proteção dos dados, com autenticação segura, controle de acesso, criptografia e prevenção contra ataques.
+3. RNF003 - Desempenho: O sistema deve responder rapidamente às requisições, suportando alta carga de usuários simultâneos sem comprometer a performance.
+4. RNF004 - Confiabilidade: O sistema deve ser estável, com baixa taxa de falhas, e ter capacidade de recuperação automática em caso de erros.
+5. RNF005 - Manutenibilidade: O código deve ser bem estruturado e fácil de manter, permitindo atualizações e correções com mínimo impacto.
+6. RNF006 - Portabilidade: O sistema deve ser executado em diferentes plataformas e ambientes, com o mínimo de ajustes necessários.
+7. RNF007 - Conectividade: O sistema deve permitir integração eficiente com outros sistemas, usando protocolos e APIs padrão, garantindo comunicação estável e segura.
 
 ### Regras de Negócio
 1. RN01 - <Descrição da Regra de Negócio>.
