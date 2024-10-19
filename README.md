@@ -54,8 +54,7 @@ na utilização do software, assim como sua área de atuação, Para que eles te
 5. RN05 - <Descrição da Regra de Negócio>.
 
 ### Modelo Arquitetural
-Modelo arquitetural Monolítico.
-Modelo em que todos os componentes formam um único aplicativo ou executável integrados em um único código-fonte.
+Modelo arquitetural Monolítico, modelo em que todos os componentes formam um único aplicativo ou executável integrados em um único código-fonte.
 
 ### Modelo de Interfaces Gráficas
 <Apresentar uma descrição sucinta do modelo de interfaces gráficas do Produto.>
@@ -72,53 +71,53 @@ O nosso planejamento inicial é hospedar nossa aplicação no Heroku ou no Fireb
 |---|---|---|---|---|---|
 |1|Concepção|30/08/2024|13/09/2024|Grupo|Concluída|
 |2|Preparação|14/09/2024|27/09/2024|Grupo|Programada|
-|3|Item(ns) do backlog <x,y,z>|28/09/2024|11/10/2024|Grupo|Programada|
-|4|Item(ns) do backlog <x,y,z>|12/10/2024|25/10/2024|Grupo|Programada|
-|5|Item(ns) do backlog <x,y,z>|26/10/2024|08/11/2024|Grupo|Programada|
-|6|Item(ns) do backlog <x,y,z>|09/11/2024|22/11/2024|Grupo|Programada|
-|7|Item(ns) do backlog <x,y,z>|23/11/2024|06/12/2024|Grupo|Programada|
-|8|Apresentação do Projeto|07/12/2024|20/12/2024|Grupo|Programada|
+|3|Item do backlog <1>|28/09/2024|11/10/2024|Grupo 7|Programada|
+|4|Item do backlog <2>|12/10/2024|25/10/2024|Grupo 7|Programada|
+|5|Item do backlog <3>|26/10/2024|08/11/2024|Grupo 7|Programada|
+|6|Item do backlog <4>|09/11/2024|22/11/2024|Grupo 7|Programada|
+|7|Item do backlog <5>|23/11/2024|06/12/2024|Grupo 7|Programada|
+|8|Apresentação do Projeto|07/12/2024|20/12/2024|Grupo 7|Programada|
 
 ### Iterações x Atividades
 |Iteração|Tarefa|Data Início|Data Fim|Responsável|Situação|
 |---|---|---|---|---|---|
-|1|Definição do grupo de trabalho|01/09/2024|03/09/2024|Grupo|Concluída|
-|1|Definição do Tema do Trabalho|01/09/2024|03/09/2024|Grupo|Concluída|
-|2|Definição do Backlog do produto|10/09/2024|10/09/2024|Grupo|Concluída|
-|2|Descrição dos itens do backlog do produto|13/09/2024|24/09/2024|Grupo|Concluída|
-|2|Distribuição dos itens do backlog entre as iterações|13/09/2024|24/09/2024|Grupo|Concluída|
-|2|Definição do modelo arquitetural|00/00/2024|00/00/2024|Grupo|Indefinida|
-|3|Especificação de estórias de usuários dos Item(ns) do backlog <x,y,z>|00/00/2024|00/00/2024||Indefinida|
-|3|Diagrama de classes dos Item(ns) do backlog <x,y,z>|00/00/2024|00/00/2024||Indefinida|
-|3|Diagrama de interação/sequencia dos itens do backlog <x,y,z>|00/00/2024|00/00/2024||Indefinida|
-|3|Projeto de Interfaces gráficas dos itens do backlog <x,y,z>|00/00/2024|00/00/2024||Indefinida|
-|3|Projeto de persistência dos itens do backlog <x,y,z>|00/00/2024|00/00/2024||Indefinida|
-|3|Implementação dos itens do backlog <x,y,z>*|00/00/2024|00/00/2024||Indefinida|
-|4|Especificação de estórias de usuários dos Item(ns) do backlog <x,y,z>|00/00/2024|00/00/2024||Indefinida|
-|4|Diagrama de classes dos Item(ns) do backlog <x,y,z>|00/00/2024|00/00/2024||Indefinida|
-|4|Diagrama de interação/sequencia dos itens do backlog <x,y,z>|00/00/2024|00/00/2024||Indefinida|
-|4|Projeto de Interfaces gráficas dos itens do backlog <x,y,z>|00/00/2024|00/00/2024||Indefinida|
-|4|Projeto de persistência dos itens do backlog <x,y,z>|00/00/2024|00/00/2024||Indefinida|
-|4|Implementação dos itens do backlog <x,y,z>*|00/00/2024|00/00/2024||Indefinida|
-|5|Especificação de estórias de usuários dos Item(ns) do backlog <x,y,z>|00/00/2024|00/00/2024||Indefinida|
-|5|Diagrama de classes dos Item(ns) do backlog <x,y,z>|00/00/2024|00/00/2024||Indefinida|
-|5|Diagrama de interação/sequencia dos itens do backlog <x,y,z>|00/00/2024|00/00/2024||Indefinida|
-|5|Projeto de Interfaces gráficas dos itens do backlog <x,y,z>|00/00/2024|00/00/2024||Indefinida|
-|5|Projeto de persistência dos itens do backlog <x,y,z>|00/00/2024|00/00/2024||Indefinida|
-|5|Implementação dos itens do backlog <x,y,z>*|00/00/2024|00/00/2024||Indefinida|
-|6|Especificação de estórias de usuários dos Item(ns) do backlog <x,y,z>|00/00/2024|00/00/2024||Indefinida|
-|6|Diagrama de classes dos Item(ns) do backlog <x,y,z>|00/00/2024|00/00/2024||Indefinida|
-|6|Diagrama de interação/sequencia dos itens do backlog <x,y,z>|00/00/2024|00/00/2024||Indefinida|
-|6|Projeto de Interfaces gráficas dos itens do backlog <x,y,z>|00/00/2024|00/00/2024||Indefinida|
-|6|Projeto de persistência dos itens do backlog <x,y,z>|00/00/2024|00/00/2024||Indefinida|
-|6|Implementação dos itens do backlog <x,y,z>*|00/00/2024|00/00/2024||Indefinida|
-|7|Especificação de estórias de usuários dos Item(ns) do backlog <x,y,z>|00/00/2024|00/00/2024||Indefinida|
-|7|Diagrama de classes dos Item(ns) do backlog <x,y,z>|00/00/2024|00/00/2024||Indefinida|
-|7|Diagrama de interação/sequencia dos itens do backlog <x,y,z>|00/00/2024|00/00/2024||Indefinida|
-|7|Projeto de Interfaces gráficas dos itens do backlog <x,y,z>|00/00/2024|00/00/2024||Indefinida|
-|7|Projeto de persistência dos itens do backlog <x,y,z>|00/00/2024|00/00/2024||Indefinida|
-|7|Implementação dos itens do backlog <x,y,z>*|00/00/2024|00/00/2024||Indefinida|
-|8|Apresentação do Projeto|00/00/2024|00/00/2024|Grupo|Indefinida|
+|1|Definição do grupo de trabalho|01/09/2024|03/09/2024|Grupo 7|Concluída|
+|1|Definição do Tema do Trabalho|01/09/2024|03/09/2024|Grupo 7|Concluída|
+|2|Definição do Backlog do produto|10/09/2024|10/09/2024|Grupo 7|Concluída|
+|2|Descrição dos itens do backlog do produto|13/09/2024|24/09/2024|Grupo 7|Concluída|
+|2|Distribuição dos itens do backlog entre as iterações|13/09/2024|24/09/2024|Grupo 7|Concluída|
+|2|Definição do modelo arquitetural|00/00/2024|00/00/2024|Grupo 7|Concluída|
+|3|Especificação de estórias de usuários dos Item(ns) do backlog <1>|00/00/2024|00/00/2024|Grupo 7|Concluída|
+|3|Diagrama de classes dos Item(ns) do backlog <1>|00/00/2024|00/00/2024|Grupo 7|Indefinida|
+|3|Diagrama de interação/sequencia dos itens do backlog <1>|00/00/2024|00/00/2024|Grupo 7|Desnecessario|
+|3|Projeto de Interfaces gráficas dos itens do backlog <1>|00/00/2024|00/00/2024|Grupo 7|Concluída|
+|3|Projeto de persistência dos itens do backlog <1>|00/00/2024|00/00/2024|Grupo 7|Indefinida|
+|3|Implementação dos itens do backlog <1>*|00/00/2024|00/00/2024|Grupo 7|Indefinida|
+|4|Especificação de estórias de usuários dos Item(ns) do backlog <2>|00/00/2024|00/00/2024|Grupo 7|Indefinida|
+|4|Diagrama de classes dos Item(ns) do backlog <2>|00/00/2024|00/00/2024|Grupo 7|Indefinida|
+|4|Diagrama de interação/sequencia dos itens do backlog <2>|00/00/2024|00/00/2024|Grupo 7|Desnecessario|
+|4|Projeto de Interfaces gráficas dos itens do backlog <2>|00/00/2024|00/00/2024|Grupo 7|Indefinida|
+|4|Projeto de persistência dos itens do backlog <2>|00/00/2024|00/00/2024|Grupo 7|Indefinida|
+|4|Implementação dos itens do backlog <2>*|00/00/2024|00/00/2024|Grupo 7|Indefinida|
+|5|Especificação de estórias de usuários dos Item(ns) do backlog <3>|00/00/2024|00/00/2024|Grupo 7|Indefinida|
+|5|Diagrama de classes dos Item(ns) do backlog <3>|00/00/2024|00/00/2024|Grupo 7|Indefinida|
+|5|Diagrama de interação/sequencia dos itens do backlog <3>|00/00/2024|00/00/2024|Grupo 7|Desnecessario|
+|5|Projeto de Interfaces gráficas dos itens do backlog <3>|00/00/2024|00/00/2024|Grupo 7|Indefinida|
+|5|Projeto de persistência dos itens do backlog <3>|00/00/2024|00/00/2024|Grupo 7|Indefinida|
+|5|Implementação dos itens do backlog <3>*|00/00/2024|00/00/2024|Grupo 7|Indefinida|
+|6|Especificação de estórias de usuários dos Item(ns) do backlog <4>|00/00/2024|00/00/2024|Grupo 7|Indefinida|
+|6|Diagrama de classes dos Item(ns) do backlog <4>|00/00/2024|00/00/2024|Grupo 7|Indefinida|
+|6|Diagrama de interação/sequencia dos itens do backlog <4>|00/00/2024|00/00/2024|Grupo 7|Desnecessario|
+|6|Projeto de Interfaces gráficas dos itens do backlog <4>|00/00/2024|00/00/2024|Grupo 7|Indefinida|
+|6|Projeto de persistência dos itens do backlog <4>|00/00/2024|00/00/2024|Grupo 7|Indefinida|
+|6|Implementação dos itens do backlog <4>*|00/00/2024|00/00/2024|Grupo 7|Indefinida|
+|7|Especificação de estórias de usuários dos Item(ns) do backlog <5>|00/00/2024|00/00/2024|Grupo 7|Indefinida|
+|7|Diagrama de classes dos Item(ns) do backlog <5>|00/00/2024|00/00/2024|Grupo 7|Indefinida|
+|7|Diagrama de interação/sequencia dos itens do backlog <5>|00/00/2024|00/00/2024|Grupo 7|Desnecessario|
+|7|Projeto de Interfaces gráficas dos itens do backlog <5>|00/00/2024|00/00/2024|Grupo 7|Indefinida|
+|7|Projeto de persistência dos itens do backlog <5>|00/00/2024|00/00/2024|Grupo 7|Indefinida|
+|7|Implementação dos itens do backlog <5>*|00/00/2024|00/00/2024|Grupo 7|Indefinida|
+|8|Apresentação do Projeto|00/00/2024|00/00/2024|Grupo 7|Indefinida|
 
 * Implementação se aplicará, se os itens da iteração em andamento, forem eleitos para validação do projeto do trabalho.
 
