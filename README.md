@@ -3,7 +3,8 @@ Repositório definido para a manutenção do controle de versão dos artefatos d
 
 ### Artefatos:
 [Figma](https://www.figma.com/design/8DbzMP3IiRCnZEs2rtJUel/design?m=auto&t=S5e8ihdh3d0F4zBM-1)
-[Diagrama](https://www.figma.com/design/8DbzMP3IiRCnZEs2rtJUel/design?m=auto&t=S5e8ihdh3d0F4zBM-1)
+
+[Diagrama](https://drive.google.com/file/d/1oelH-rMBq33oVNVw6Kzz6chLlNIFY7O4/view?usp=drivesdk)
 
 ### Nome do Projeto:
 Letralivre
