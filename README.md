@@ -6,6 +6,8 @@ Repositório definido para a manutenção do controle de versão dos artefatos d
 
 [Diagrama](https://drive.google.com/file/d/1oelH-rMBq33oVNVw6Kzz6chLlNIFY7O4/view?usp=drivesdk)
 
+[Backlog](https://docs.google.com/file/d/1v8VbRhVpmPviyBCpx6egBrqzOAAum8gS/edit?usp=docslist_api&filetype=msword)
+
 ### Nome do Projeto:
 Letralivre
 
