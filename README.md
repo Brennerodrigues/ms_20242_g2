@@ -1,6 +1,10 @@
 ### ms_20242_g2
 Repositório definido para a manutenção do controle de versão dos artefatos do projeto de do Grupo 2, da Disciplina de Modelagem de Software, no semestre 2024-2.
 
+### Artefatos:
+[Figma](https://www.figma.com/design/8DbzMP3IiRCnZEs2rtJUel/design?m=auto&t=S5e8ihdh3d0F4zBM-1)
+[Diagrama](https://www.figma.com/design/8DbzMP3IiRCnZEs2rtJUel/design?m=auto&t=S5e8ihdh3d0F4zBM-1)
+
 ### Nome do Projeto:
 Letralivre
 
