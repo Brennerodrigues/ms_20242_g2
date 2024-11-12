@@ -1,0 +1,14 @@
+<div id="loginFrame">
+    <!-- <h1 id="title">LetraLivre</h1> -->
+    <button class="btn1" id="register">Não é cadastrado?</button>
+    <img src="assets/images/logo.png" id="logo">
+    <img src="assets/images/login/graph1.png" id="imagemLogin">
+    <div class="text">
+        <span style="color:green; fontWeight:bolder; font-size: 5dvh">Alfabetização é <span style="color:goldenrod">liberdade</span>!</span>
+        <h3>Descubra o prazer da leitura e da escrita com o Letra Livre, um espaço dedicado à alfabetização que transforma o aprendizado em uma jornada divertida e enriquecedora!</h3>
+    </div>
+    <div id="loginBox" >
+        <login-input *ngFor="let i of loginInputs" [fieldName]=i.label [imgSrc]="i.imgUrl"/>
+    </div>
+    <button class="btn1" id="login">Entrar</button>
+</div> 
