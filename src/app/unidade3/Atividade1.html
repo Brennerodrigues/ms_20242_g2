@@ -9,16 +9,21 @@
     <link rel="stylesheet" href="style.css">
     
     <style>
+/* Definindo o estilo para a estrutura de html e body */
 html, body {
     box-sizing: border-box;
-  }
-  .tela-12 {
+}
+
+/* Definindo o estilo da tela principal (fundo, altura e overflow) */
+.container {
     background: var(--primaria-light, #fff6e6);
     height: 960px;
     position: relative;
     overflow: hidden;
-  }
-  .rectangle-31 {
+}
+
+/* Estilo do retângulo central */
+.central-rectangle {
     background: #B8B5B5;
     border-radius: 50px;
     width: 317px;
@@ -27,32 +32,28 @@ html, body {
     left: 129px;
     top: 412px;
     overflow: visible;
-  }
-  .si-arrow-right-circle-duotone {
+}
+
+/* Estilo para o botão de seta à direita */
+.arrow-right-button {
     width: 48px;
     height: 48px;
     position: absolute;
     left: 720px;
     top: 24px;
-  }
-  .group {
-    width: 83.33%;
-    height: 83.33%;
-    position: absolute;
-    right: 8.33%;
-    left: 8.33%;
-    bottom: 8.33%;
-    top: 8.33%;
-    overflow: visible;
-  }
-  .si-arrow-left-circle-duotone {
+}
+
+/* Estilo para o grupo de elementos com a seta à direita */
+.arrow-left-button {
     width: 48px;
     height: 48px;
     position: absolute;
     left: 642px;
     top: 24px;
-  }
-  .group2 {
+}
+
+/* Estilo do grupo de elementos de conteúdo central */
+.content-group {
     width: 83.33%;
     height: 83.33%;
     position: absolute;
@@ -61,28 +62,22 @@ html, body {
     bottom: 8.33%;
     top: 8.33%;
     overflow: visible;
-  }
-  .si-close-circle-duotone {
+}
+
+/* Estilo do botão de fechar (ícone de X) */
+.close-button {
     width: 48px;
     height: 48px;
     position: absolute;
     left: 60px;
     top: 76px;
-  }
-  .group3 {
-    width: 83.33%;
-    height: 83.33%;
-    position: absolute;
-    right: 8.33%;
-    left: 8.33%;
-    bottom: 8.33%;
-    top: 8.33%;
-    overflow: visible;
-  }
-  .rectangle-2 {
+}
+
+/* Estilo do retângulo de barra */
+.top-bar {
     background: linear-gradient(
       90deg,
-      rgba(221, 219, 228, 1) 99.98999834060669%,
+      rgba(221, 219, 228, 1) 99.99%,
       rgba(114, 242, 16, 1) 100%
     );
     border-radius: 50px;
@@ -94,8 +89,10 @@ html, body {
     position: absolute;
     left: 129px;
     top: 88px;
-  }
-  .rectangle-33 {
+}
+
+/* Estilo do retângulo verde de rodapé */
+.footer-rectangle {
     background: #72f210;
     border-radius: 50px;
     width: 367px;
@@ -103,16 +100,20 @@ html, body {
     position: absolute;
     left: 522px;
     top: 863px;
-  }
-  .raphael-check {
+}
+
+/* Estilo do ícone de "certo" (check) */
+.check-icon {
     width: 87px;
     height: 80px;
     position: absolute;
     left: 669px;
     top: 865px;
     overflow: visible;
-  }
-  .line-7 {
+}
+
+/* Linha horizontal separadora */
+.separator-line {
     margin-top: -4px;
     border-style: solid;
     border-color: #000000;
@@ -124,19 +125,19 @@ html, body {
     top: 788px;
     transform-origin: 0 0;
     transform: rotate(0deg) scale(1, 1);
-  }
-  .vector {
+}
+
+/* Estilo do ícone do coração */
+.heart-icon {
     width: 317px;
     height: 300px;
     position: absolute;
     left: 129px;
     top: 412px;
-  }
-  .botao-audio-u {
-    position: absolute;
-    inset: 0;
-  }
-  .ellipse-14 {
+}
+
+/* Estilo da elipse */
+.ellipse {
     background: #f0e4d5;
     border-radius: 50%;
     border-style: solid;
@@ -147,15 +148,19 @@ html, body {
     position: absolute;
     left: 485px;
     top: 243px;
-  }
-  .download-1 {
+}
+
+/* Estilo do ícone de download */
+.download-icon {
     width: 98.48px;
     height: 90.31px;
     position: absolute;
     left: 522.26px;
     top: 258.51px;
-  }
-  .fala-2 {
+}
+
+/* Estilo do balão de fala */
+.speech-bubble {
     border-radius: 73px;
     width: 405.28px;
     height: 360.65px;
@@ -165,12 +170,10 @@ html, body {
     transform-origin: 0 0;
     transform: rotate(27.747deg) scale(1, 1);
     object-fit: cover;
-  }
-  .vogal-a {
-    position: absolute;
-    inset: 0;
-  }
-  .rectangle-312 {
+}
+
+/* Estilo dos retângulos de texto */
+.text-rectangle1 {
     background: #B8B5B5;
     border-radius: 50px;
     width: 211.14px;
@@ -179,9 +182,10 @@ html, body {
     left: 485px;
     top: 540px;
     overflow: visible;
-  }
+}
 
-  .ra {
+/* Texto "Ra" */
+.text-ra {
     color: #000000;
     text-align: left;
     font-family: "PaytoneOne-Regular", sans-serif;
@@ -192,8 +196,10 @@ html, body {
     top: 565px;
     width: 204.1px;
     height: 94px;
-  }
-  .rectangle-313 {
+}
+
+/* Estilo do retângulo 2 (para o "Co") */
+.text-rectangle2 {
     background: #B8B5B5;
     border-radius: 50px;
     width: 211.14px;
@@ -202,8 +208,10 @@ html, body {
     left: 747px;
     top: 545px;
     overflow: visible;
-  }
-  .co {
+}
+
+/* Texto "Co" */
+.text-co {
     color: #000000;
     text-align: left;
     font-family: "PaytoneOne-Regular", sans-serif;
@@ -214,8 +222,10 @@ html, body {
     top: 565px;
     width: 204.1px;
     height: 94px;
-  }
-  .rectangle-314 {
+}
+
+/* Estilo do retângulo 3 (para o "Ção") */
+.text-rectangle3 {
     background: #B8B5B5;
     border-radius: 50px;
     width: 313.86px;
@@ -224,8 +234,10 @@ html, body {
     left: 1009px;
     top: 545px;
     overflow: visible;
-  }
-  .o {
+}
+
+/* Texto "Ção" */
+.text-cao {
     color: #000000;
     text-align: left;
     font-family: "PaytoneOne-Regular", sans-serif;
@@ -236,37 +248,63 @@ html, body {
     top: 565px;
     width: 303.4px;
     height: 94px;
-  }
+}
+
 </style>
 </head>
 
 <body>
-    <body>
-        <div class="tela-12">
-          <div class="rectangle-31"></div>
-            <div class="si-arrow-right-circle-duotone">
-              <img class="group" src="img/setadireita.png"  />
-            </div>
-            <div class="si-arrow-left-circle-duotone">
-              <img class="group2" src="img/setaesquerda.png" />
-            </div>
-            <div class="si-close-circle-duotone">
-              <img class="group3" src="img/x.png" />
-            </div>
-            <div class="rectangle-2"></div>
-            <div class="rectangle-33"></div>
-            <img class="raphael-check" src="img/CertoSem.png" />
-            <div class="line-7"></div>
-            <img class="vector" src="img/CoracaoSem.png" />
-            <div class="ellipse-14"></div>
-            <img class="download-1" src="img/SomSem.png" />
-            <img class="fala-2" src="img/BalaoSem.png" />
-            <div class="rectangle-312" src="#" ></div>
-            <div class="ra">Ra</div>
-            <div class="rectangle-313" src="rectangle-312.svg" ></div>
-            <div class="co">Co</div>
-            <div class="rectangle-314" src="rectangle-313.svg" ></div>/>
-            <div class="o">Ção</div>
-          </div>
-        </body>
-        </html>
+    <div class="container">
+        <!-- Retângulo central -->
+        <div class="central-rectangle"></div>
+
+        <!-- Botão de seta para direita -->
+        <div class="arrow-right-button">
+            <img class="content-group" src="img/setadireita.png" />
+        </div>
+
+        <!-- Botão de seta para esquerda -->
+        <div class="arrow-left-button">
+            <img class="content-group" src="img/setaesquerda.png" />
+        </div>
+
+        <!-- Botão de fechar (X) -->
+        <div class="close-button">
+            <img class="content-group" src="img/x.png" />
+        </div>
+
+        <!-- Barra superior -->
+        <div class="top-bar"></div>
+
+        <!-- Retângulo verde de rodapé -->
+        <div class="footer-rectangle"></div>
+
+        <!-- Ícone de "Certo" -->
+        <img class="check-icon" src="img/CertoSem.png" />
+
+        <!-- Linha separadora -->
+        <div class="separator-line"></div>
+
+        <!-- Ícone do coração -->
+        <img class="heart-icon" src="img/CoracaoSem.png" />
+
+        <!-- Elipse de fundo -->
+        <div class="ellipse"></div>
+
+        <!-- Ícone de download -->
+        <img class="download-icon" src="img/SomSem.png" />
+
+        <!-- Balão de fala -->
+        <img class="speech-bubble" src="img/BalaoSem.png" />
+
+        <!-- Retângulos de texto -->
+        <div class="text-rectangle1"></div>
+        <div class="text-ra">Ra</div>
+
+        <div class="text-rectangle2"></div>
+        <div class="text-co">Co</div>
+
+        <div class="text-rectangle3"></div>
+        <div class="text-cao">Ção</div>
+    </div>
+</body
