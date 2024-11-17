@@ -1,0 +1,54 @@
+
+<div [ngClass]="{'container-tela-principal':true, 'won':mode=='Win', 'miss':mode=='Miss'}">
+    
+    <div id="exNavigation">
+        <div id="arrows">
+            <!-- Ícone de seta para a direita -->
+            <div class="icone-seta-direita">
+                <img src="assets/images/exercises/setadireita.png" alt="informacao atividade">
+            </div>
+            
+            <!-- Ícone de seta para a esquerda -->
+            <div class="icone-seta-esquerda">
+                <img src="assets/images/exercises/setaesquerda.png" alt="informacao atividade">
+            </div>
+        </div>
+        
+        <!-- Ícone de fechar -->
+        <div class="icone-fechar">
+            <img src="assets/images/exercises/x.png" alt="informacao atividade">
+        </div>
+            
+        <!-- Barra de título superior -->
+        <div class="barra-titulo">
+            <div id="progress"></div>
+        </div>
+    </div>
+        
+    <div id="congrats" *ngIf="mode=='Win'">
+        Parabéns! 🎉
+    </div>
+    <div id="tryAgain" *ngIf="mode=='Miss'">
+        Tente Novamente. 🤔
+    </div>
+
+    <div id="options">
+        <ex-option *ngFor="let i of actOptions[activityID[0]][activityID[1]-1]; let id = index" 
+                    [optID]="id" [selected]="selectedOption" (select)="updateSelected($event)"
+                    [optLabel]="i[0]" [imgSource]="'assets/images/exercises/atividade'+activityID[0]+'/'+i[1]"/>
+    </div>
+    
+        
+    <!-- Marca de seleção -->
+    <!-- <div class="marca-selecao" (click)="updateMode()">
+        <img src="assets/images/exercises/check.png" alt="informacao atividade">
+    </div> -->
+    <ex-button *ngIf="mode=='Doing'" [typeButton]="'Marcar'" [action]=updateMode/>
+    <ex-button *ngIf="mode!='Doing'" [typeButton]="'Continuar'" [action]=updateMode/>
+    <ex-button *ngIf="mode=='Miss'" [typeButton]="'Refazer'" [action]=retry/>
+    
+    <!-- Linha de separação -->
+    <div class="linha-separacao"></div>
+</div>
+
+

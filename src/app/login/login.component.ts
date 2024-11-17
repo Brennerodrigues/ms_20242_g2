@@ -1,5 +1,7 @@
 import { NgFor } from '@angular/common';
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output } from '@angular/core';
+import { EventEmitter } from '@angular/core';
+import { Status } from '../app.component'
 
 @Component({
   selector: 'login-input',
@@ -25,4 +27,9 @@ export class LoginComponent {
                                                     {label:"Cargo", imgUrl: "assets/images/login/cargo.png"},
                                                     {label:"Nome", imgUrl: "assets/images/login/nome.png"},
                                                     {label:"Senha", imgUrl: "assets/images/login/senha.png"}];
+  @Output() update = new EventEmitter<Status>();
+  callLoginAction(){
+    const value: Status = 'Exercises';
+    this.update.emit(value);
+  }
 }

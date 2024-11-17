@@ -1,5 +1,10 @@
 <div id="app">
-  <app-login />
+  <div *ngIf="status === 'Login'">
+    <app-login (update)="changeStatus($event)"/>
+  </div>
+  <div *ngIf="status === 'Exercises'">
+    <app-exercises />
+  </div>
 </div> 
 
 <router-outlet />

@@ -1,0 +1,22 @@
+.opcao1{
+    width: 19vw;
+    height: 42vh;
+    text-align: center;
+    /* line-height: 22vh; */
+    font-size: 3.5dvh;
+    /* left: 68vw;  Largura ajustada para 68% da largura da tela
+    top: 30vh; */
+}
+
+.opcao1 img{
+    width: 14vw;
+    height: 14vw;
+    margin: 1vw;
+    margin-bottom: 0.5vw;
+}
+
+.selected{
+    border: 1dvh solid #72F210;
+    /* transition: background-color border 0.5s; */
+}
+

@@ -1,0 +1,202 @@
+/* Garantir que a página ocupe toda a tela */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Impede o scroll */
+}
+
+/* Contêiner principal da tela */
+.container-tela-principal {
+    width: 201.4dvh;
+    height: 100dvh;
+    position: relative;
+    box-sizing: border-box;
+    border: 1dvh solid transparent;
+    transition: border 0.2s;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+div.won{
+    border: 1dvh solid #72F210;
+}
+div.miss{
+    border: 1dvh solid #FF2B2B;
+}
+
+/* Ícone de seta para a direita */
+.icone-seta-direita {
+    width: 5vw;
+    height: 5vh;
+    left: 6vw; /* Centralizado */
+    top: 4vh;
+    position: absolute;
+}
+
+.icone-seta-direita img {
+    width: 60%;
+    height: auto;
+}
+
+/* Ícone de seta para a esquerda */
+.icone-seta-esquerda {
+    width: 5vw;
+    height: 5vh;
+    left: 2vw; /* Posição ajustada para antes da seta direita */
+    top: 4vh;
+    position: absolute;
+}
+
+.icone-seta-esquerda img {
+    width:60%;
+    height: auto;
+}
+
+.icone-fechar img {
+    width: 6dvh;
+    margin-left: 6dvh;
+    margin-top: 10dvh;
+    height: auto;
+}
+
+/* Barra de título superior */
+.barra-titulo {
+    width: 90%;
+    height: 3vh;
+    left: 8vw;
+    top: 12vh;
+    position: absolute;
+    background: #DDDBE4;
+    border-radius: 50px;
+    border: 0.4dvh black solid;
+    overflow: hidden;
+}
+
+#progress{
+    width: 0%;
+    height: 100%;
+    /* background: linear-gradient(to right, #72F210 95%, #DDDBE4 5%); */
+    background: linear-gradient(to right, #72F210 92%, #DDDBE4 100%);
+    transition: width 0.3s;
+}
+
+/* Marca de seleção */
+.marca-selecao {
+    width: 25dvh;
+    height: 10dvh;
+    top: 85vh;
+    position: absolute;
+    background-color: #72F210;
+    border-radius: 1dvh;
+    text-align: center;
+    transition: background-color 0.1s;
+}
+.marca-selecao:hover{
+    background-color:#67da0f;
+    cursor: pointer;
+}
+
+.mark{
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.retry{
+    left:6%;
+}
+.pass{
+    right:5%;
+    background-color:#B8B5B5;
+}
+.pass:hover{
+    background-color:#aaa8a8;
+}
+
+.marca-selecao img {
+    height: 7dvh;
+    margin: 1.2dvh;
+}
+
+/* Linha de separação */
+.linha-separacao {
+    top: 78vh;
+    width: 179dvh;
+    left: 11dvh;
+
+    position: absolute;
+    border: 0.2dvh black solid;
+}
+
+.basicBox{
+    /* position: absolute; */
+    background: #B8B5B5;
+    border-radius: 1dvh;
+    transition: background-color 0.2s, border 0.2s;
+}
+.basicBox:hover{
+    background: #aaa8a8;
+    cursor: pointer;
+}
+
+#exNavigation{
+    position: relative;
+    width: 85vw;
+    height: 20dvh;
+    margin-left: 49%;
+    transform: translateX(-50%);
+}
+
+div#arrows{
+    width: 20dvh;
+    height: 10dvh;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+div#congrats{
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    padding: 2dvh;
+
+    width: 40dvh;
+    height: 10dvh;
+    line-height: 5dvh;
+    
+    text-align: center;
+    font-size: 4dvh;
+    margin-top: -2dvh;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border: 1dvh solid #72F210;
+    border-radius: 1dvh;
+}
+div#tryAgain{
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    padding: 2dvh;
+
+    width: 40dvh;
+    height: 10dvh;
+    line-height: 5dvh;
+    
+    text-align: center;
+    font-size: 3dvh;
+    margin-top: -2dvh;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border: 1dvh solid #FF2B2B;
+    border-radius: 1dvh;
+}
+
+div#options{
+    display: flex; 
+    justify-content: space-between;
+    width: 160dvh;
+    margin-left: 20dvh;
+    margin-top: 10dvh;
+}

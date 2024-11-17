@@ -10,5 +10,5 @@
     <div id="loginBox" >
         <login-input *ngFor="let i of loginInputs" [fieldName]=i.label [imgSrc]="i.imgUrl"/>
     </div>
-    <button class="btn1" id="login">Entrar</button>
+    <button class="btn1" id="login" (click)="callLoginAction()">Entrar</button>
 </div> 
