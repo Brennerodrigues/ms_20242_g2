@@ -2,7 +2,7 @@
 Repositório definido para a manutenção do controle de versão dos artefatos do projeto de do Grupo 2, da Disciplina de Modelagem de Software, no semestre 2024-2.
 
 ### Artefatos:
-[Figma](https://www.figma.com/design/8DbzMP3IiRCnZEs2rtJUel/design?m=auto&t=S5e8ihdh3d0F4zBM-1)
+[Figma](https://www.figma.com/proto/cdlxkDFUCWSOCDAcvPBAgq/prototipacao?node-id=0-1&t=V0adZ3wwE6ticoEE-1)
 
 [Diagrama](https://drive.google.com/file/d/1oelH-rMBq33oVNVw6Kzz6chLlNIFY7O4/view?usp=drivesdk)
 
