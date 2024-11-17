@@ -77,12 +77,12 @@ O nosso planejamento inicial é hospedar nossa aplicação no Hander, sendo cruc
 |Iteração|Descrição|Data Início|Data Fim|Responsável|Situação|
 |---|---|---|---|---|---|
 |1|Concepção|03/09/2024|10/09/2024|Grupo|Concluída|
-|2|Preparação|10/09/2024|10/09/2024|Grupo|Programada|
-|3|Item do backlog <1>|10/09/2024|17/09/2024|Grupo 7|Programada|
-|4|Item do backlog <2>|24/09/2024|01/10/2024|Grupo 7|Programada|
-|5|Item do backlog <3>|08/10/2024|15/11/2024|Grupo 7|Programada|
-|6|Item do backlog <4>|22/10/2024|29/10/2024|Grupo 7|Programada|
-|7|Item do backlog <5>|05/11/2024|12/11/2024|Grupo 7|Programada|
+|2|Preparação|10/09/2024|10/09/2024|Grupo|Concluída|
+|3|Item do backlog <1>|10/09/2024|17/09/2024|Grupo 7|Concluída|
+|4|Item do backlog <2>|24/09/2024|01/10/2024|Grupo 7|Concluída|
+|5|Item do backlog <3>|08/10/2024|15/11/2024|Grupo 7|Concluída|
+|6|Item do backlog <4>|22/10/2024|29/10/2024|Grupo 7|Concluída|
+|7|Item do backlog <5>|05/11/2024|12/11/2024|Grupo 7|Concluída|
 |8|Apresentação do Projeto|19/11/2024|26/11/2024|Grupo 7|Programada|
 
 ### Iterações x Atividades
@@ -128,4 +128,3 @@ O nosso planejamento inicial é hospedar nossa aplicação no Hander, sendo cruc
 
 * Implementação se aplicará, se os itens da iteração em andamento, forem eleitos para validação do projeto do trabalho.
 
-Usuário github: gilmarUFG
