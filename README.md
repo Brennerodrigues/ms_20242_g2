@@ -54,23 +54,23 @@ na utilização do software, assim como sua área de atuação, Para que eles te
 7. RNF007 - Conectividade: O sistema deve permitir integração eficiente com outros sistemas, usando protocolos e APIs padrão, garantindo comunicação estável e segura.
 
 ### Regras de Negócio
-1. RN01 - <Descrição da Regra de Negócio>.
-2. RN02 - <Descrição da Regra de Negócio>.
-3. RN03 - <Descrição da Regra de Negócio>.
-4. RN04 - <Descrição da Regra de Negócio>.
-5. RN05 - <Descrição da Regra de Negócio>.
+
+1. RN01 - Validação de Respostas <O sistema deve verificar se a resposta fornecida pelo aluno está correta>.
+2. RN02 - Progresso do Aluno <O sistema deve acompanhar o progresso do aluno e ajustar as atividades conforme o nível de habilidade>.
+3. RN03 - Tempo Limite <Para algumas atividades, o aluno deve ser desafiado a completar uma tarefa dentro de um tempo específico>.
+4. RN04 - Atividades Personalizadas <O sistema deve adaptar as atividades ao desempenho do aluno, oferecendo atividades mais difíceis ou mais fáceis, dependendo de seu progresso>.
+5. RN05 - Correção de Pronúncia <O sistema deve ser capaz de detectar erros de pronúncia e sugerir correções>.
+6. RN06 - Desafios com Sequência <O sistema deve permitir que o aluno complete atividades em sequência, como completar palavras a partir de letras embaralhadas>.
 
 ### Modelo Arquitetural
 Modelo arquitetural Monolítico, modelo em que todos os componentes formam um único aplicativo ou executável integrados em um único código-fonte.
 
 ### Modelo de Interfaces Gráficas
-<Apresentar uma descrição sucinta do modelo de interfaces gráficas do Produto.>
-
-### Tecnologia de Persistência de Dados
-<Apresentar uma descrição sucinta do modelo de persistência do Produto.>
+O modelo de interfaces gráficas deste produto visa oferecer uma experiência de usuário intuitiva, com foco na facilidade de navegação e na clareza das informações apresentadas.
+A interface é dividida em três áreas principais: um menu de navegação lateral, uma área de conteúdo central e uma barra superior com informações contextuais e botões de ação rápida. O layout é responsivo, adaptando-se bem a diferentes tamanhos de tela, de desktops a dispositivos móveis.
 
 ### Local do _Deploy_
-O nosso planejamento inicial é hospedar nossa aplicação no Heroku ou no Firebase do Google, sendo crucial para nossa escolha a facilidade de configuração e também os recursos ofertados na versão gratuita.
+O nosso planejamento inicial é hospedar nossa aplicação no Hander, sendo crucial para nossa escolha a facilidade de configuração e também os recursos ofertados na versão gratuita.
 
 ### Cronograma de Desenvolvimento
 
