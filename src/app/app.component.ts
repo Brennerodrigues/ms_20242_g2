@@ -15,7 +15,7 @@ export type Status = 'Login' | 'Home' | 'Exercises';
 })
 export class AppComponent {
   title = 'LetraLivre';
-  status: Status = 'Exercises';
+  status: Status = 'Login';
 
   // Função que muda o status da página com base num evento recebido do elemento filho
   changeStatus(targetPage: Status){

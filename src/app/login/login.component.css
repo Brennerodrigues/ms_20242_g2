@@ -8,7 +8,7 @@ div#loginFrame{
 div#loginBox{
     position: absolute;
     top: 42dvh;
-    right: 27dvh;
+    right: 12.5dvw;
     width: 50dvh;
     max-height: 42dvh; 
     overflow: scroll;
@@ -22,12 +22,12 @@ div#loginBox::-webkit-scrollbar{
 
 h1#title{
     position: absolute;
-    margin: 5dvh 0 0 5dvh;
+    margin: 5dvh 0 0 2.5dvw;
     color: green;
 }
 img#logo{
     position: absolute;
-    width: 30dvh;
+    width: 15dvw;
     margin: 0 0 0 5dvh;
 }
 
@@ -37,7 +37,7 @@ div.text{
     position: absolute;
     right: 20dvh;
     top: 20dvh;
-    width: 70dvh;
+    width: 35dvw;
 
     text-align: end;
 }
@@ -49,7 +49,7 @@ div.text h3{
 
 img#imagemLogin{
     position: absolute;
-    width: 50dvh;
+    width: 25dvw;
     left: 20dvh;
     bottom: 20dvh;
 }
@@ -81,6 +81,10 @@ img.inputIcon{
     padding-left: 2dvh;
     
     line-height: 4rem;
+}
+
+button{
+    cursor: pointer;
 }
 
 button.btn1{
