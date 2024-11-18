@@ -20,3 +20,6 @@
     /* transition: background-color border 0.5s; */
 }
 
+.wrongSelection{
+    border: 1dvh solid #FF2B2B;
+}

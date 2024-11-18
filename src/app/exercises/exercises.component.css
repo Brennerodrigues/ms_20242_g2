@@ -28,6 +28,8 @@ div.miss{
 }
 
 /* Ícone de seta para a direita */
+.icone-fechar img, .icone-seta-direita img, .icone-seta-esquerda img{ cursor: pointer }
+
 .icone-seta-direita {
     width: 5vw;
     height: 5vh;
@@ -199,4 +201,174 @@ div#options{
     width: 160dvh;
     margin-left: 20dvh;
     margin-top: 10dvh;
+}
+
+.retangulo-borda-sombra {
+    width: 30dvw; /* Proporcional à largura da viewport */
+    height: 10dvh; /* Proporcional à altura da viewport */
+    left: 35dvw; /* Posicionamento horizontal dinâmico */
+    top: 5dvh; /* Posicionamento vertical dinâmico */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    box-shadow: 0.2dvh 0dvh 2dvw #0062CC;
+    border-radius: 2dvh; /* Ajuste proporcional */
+    border: 0.4dvh solid #0062CC;
+}
+
+.titulo-secao-unidade {
+    vertical-align: middle;
+    text-align: center;
+    width: 25dvw;
+    height: 7dvh;
+
+    top: 2.5dvh;
+    position: absolute;
+    font-size: 4dvh;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.descricao-atividade {
+    width: 60dvw;
+    height: 15dvh;
+    left: 20dvw;
+    top: 25dvh;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 5dvh;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.observacao-professor {
+    width: 65dvw;
+    height: 8dvh;
+    left: 17.5dvw;
+    top: 45dvh;
+    position: absolute;
+    color: black;
+    font-size: 3dvh;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.botao-iniciar {
+    width: 20dvw;
+    height: 10dvh;
+    left: 40dvw;
+    top: 60dvh;
+    position: absolute;
+    background: #72F210;
+    border-radius: 4dvh;
+    transition: background-color 0.2s;
+    cursor: pointer;
+
+    line-height: 10dvh;
+    text-align: center;
+    
+    color: black;
+    font-size: 5dvh;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+
+}
+.botao-iniciar:hover{
+    background: #67da0f;
+}
+
+
+.tela-principal .icone-seta-esquerda,
+.tela-principal .icone-fechar,
+.tela-principal .icone-seta-direita {
+    width: 5dvh; /* Dimensão dinâmica proporcional à altura da viewport */
+    height: 5dvh;
+    position: absolute;
+    display: flex; /* Habilita Flexbox */
+    justify-content: center; /* Centraliza o conteúdo no eixo horizontal */
+    align-items: center; /* Centraliza o conteúdo no eixo vertical */
+    cursor: pointer;
+}
+
+.tela-principal .icone-seta-esquerda {
+    left: 30dvw; /* Ajuste proporcional baseado na largura da viewport */
+    top: 8dvh; /* Ajuste proporcional baseado na altura da viewport */
+}
+
+.tela-principal .icone-fechar {
+    left: 2dvw; /* Ajuste proporcional baseado na largura da viewport */
+    top: 2dvh; /* Ajuste proporcional baseado na altura da viewport */
+}
+
+.tela-principal .icone-seta-direita {
+    left: 67dvw; /* Ajuste proporcional baseado na largura da viewport */
+    top: 8dvh; /* Ajuste proporcional baseado na altura da viewport */
+}
+
+.botao-home, .botao-proximo{
+    width: 20dvw;
+    height: 10dvh;
+    top: 80dvh; 
+    position: absolute;
+    transition: background-color 0.2s;
+    cursor: pointer;
+    
+    line-height: 10dvh;
+    text-align: left;
+    
+    color: black;
+    font-size: 5dvh;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+    border-radius: 4dvh;
+}
+
+.botao-home img{
+    position: absolute;
+    margin-left: 2dvh;
+    margin-top: 2dvh;
+    height: 6dvh;
+}
+
+.botao-proximo img{
+    position: absolute;
+    margin-top: 3dvh;
+    margin-left: 2dvh;
+    height: 4dvh;
+}
+
+.botao-proximo{
+    padding-left: 9dvh;
+    background: #72F210; 
+    left: 60dvw;
+      
+}
+.botao-proximo:hover{
+    background: #67da0f;
+}
+
+.botao-home{
+    padding-left: 11dvh;
+    left: 20dvw;
+    background: #EDC114;
+}
+.botao-home:hover{
+    background: #d6af12;
+}
+
+#happyFace{
+    left: 50dvw;
+    top: 55dvh;
+    transform: translateX(-50%);
+    width: 10dvw;
+    position: absolute;
 }

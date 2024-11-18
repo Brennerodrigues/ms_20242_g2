@@ -53,7 +53,7 @@ export class Option{
 interface ActOptions {[key: number]: string[][][]}
 interface ActAnswers {[key: number]: number[]}
 
-type Mode = "Doing" | "Win" | "Miss";
+type Mode = "Doing" | "Win" | "Miss" | "Info" | 'Finish';
 
 @Component({
   selector: 'app-exercises',
@@ -67,13 +67,16 @@ export class ExercisesComponent {
   @Input() activityID: number[] = [1,1];
   @Input() numberOfOptions: number = 0;
 
-  mode: Mode = "Doing";
+  mode: Mode = "Info";
 
   actOptions: ActOptions = {
     1: [
       [["A-ba-ca-te", "avocado.png"], ["Á-gua", "water.png"], ["A-çú-car", "sugar.png"]],
       [["Bró-co-lis", "broccoli.png"], ["Bor-bo-le-ta", "butterfly.png"], ["Ba-ra-ta", "cockroach.png"]],
       [["Ca-me-lo", "camel.png"], ["Ce-nou-ra", "carrot.png"], ["Ca-va-lo", "horse.png"]]
+    ],
+    2: [
+      []
     ]
   }
   answers: ActAnswers = {
@@ -85,14 +88,13 @@ export class ExercisesComponent {
     if(this.mode=='Doing'){
       this.selectedOption = id;
     }
-    
   }
 
   actProgress: number = 0;
 
   updateMode(){
     if(this.selectedOption>=0 && this.mode=='Doing'){
-      if(this.selectedOption == this.answers[this.activityID[0]][this.activityID[1]]+1){
+      if(this.selectedOption+1 == this.answers[this.activityID[0]][this.activityID[1]-1]){
         if(this.actProgress < 100) this.actProgress += (105/this.answers[this.activityID[0]].length);
         let progressBar = document.getElementById("progress");
         if(progressBar){
@@ -101,6 +103,10 @@ export class ExercisesComponent {
         this.mode = "Win";
       }else{
         this.mode = "Miss";
+        let wrongSelection = document.querySelector(".selected");
+        if(wrongSelection){
+          wrongSelection.classList.add("wrongSelection");
+        }
       }
     }
   }
@@ -108,17 +114,37 @@ export class ExercisesComponent {
   retry(){
     this.mode="Doing";
     this.selectedOption=-1;
+    let wrongSelection = document.querySelector(".selected");
+    if(wrongSelection){
+        wrongSelection.classList.remove("wrongSelection");
+    }
   }
 
-  callNextEx(){
+  getNextEx(){
+    this.selectedOption=-1;
+    if(this.activityID[1]==this.actOptions[this.activityID[0]].length){
+      // this.activityID[0]+=1;
+      this.activityID[1]=1;
+      this.mode="Finish";
+    }else{
+      this.mode="Doing";
+      this.activityID[1]+=1;
+    }
 
+  }
+
+  
+  pullNextActivity(){  
+    this.mode="Info";
+    this.activityID[0]+=1;
+    this.activityID[1]=1;
   }
 
   ngOnInit() {
     // Mantém a contexto das funções sempre nesse componente, mesmo quando chamado em outros.
     this.updateMode = this.updateMode.bind(this);
     this.retry = this.retry.bind(this);
-    this.callNextEx = this.callNextEx.bind(this);
+    this.getNextEx = this.getNextEx.bind(this);
   }
 }
 
