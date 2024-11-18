@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, Output } from '@angular/core';
 import { Input } from '@angular/core';
 import { EventEmitter } from '@angular/core';
+import { Status } from '../app.component';
 
 type ButtonTypes = "Marcar" | "Refazer" | "Continuar";
 
@@ -133,11 +134,15 @@ export class ExercisesComponent {
 
   }
 
-  
   pullNextActivity(){  
     this.mode="Info";
     this.activityID[0]+=1;
     this.activityID[1]=1;
+  }
+
+  @Output() update = new EventEmitter<Status>();
+  goBackHome(){
+    this.update.emit("Home");
   }
 
   ngOnInit() {

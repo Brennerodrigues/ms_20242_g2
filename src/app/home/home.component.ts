@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter } from '@angular/core';
 import {NgOptimizedImage} from '@angular/common';
+import { Output } from '@angular/core';
+import { Status } from '../app.component';
 
 @Component({
   selector: 'app-home',
@@ -11,5 +13,9 @@ import {NgOptimizedImage} from '@angular/common';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-
+  @Output() update = new EventEmitter<Status>();
+  
+  callUnity(){
+    this.update.emit("Exercises");
+  }
 }

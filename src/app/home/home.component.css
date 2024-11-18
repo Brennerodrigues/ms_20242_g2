@@ -1,49 +1,47 @@
 body {
   background-color: #FFF6E6;
-  font-family:  "Arial Black", sans-serif;
+  font-family: "Arial Black", sans-serif;
 }
 
 .content {
+  width: 100%;
+  height: 100%;
   display: flex;
+  /* overflow: hidden; */
+  /* position: relative; */
 }
 
 .menu {
   height: 100%;
-  width: fit-content;
-}
-
-.logo img {
-  width: 250px;
+  /* width: fit-content; */
+  width: 40dvw;
+  max-width: 40dvw;
 }
 
 li {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  padding: 15px;
-}
-
-.menu .foto img {
-  width: 175px;
+  padding: 1.5dvh;
 }
 
 .menu a img {
-  height: 25px;
-  width: 25px;
+  height: 2dvh;
+  width: 2dvh;
 }
 
 .menu li a {
   text-decoration: none;
   display: inline-flex;
   align-items: center;
-  gap: 25px;
-  border: 5px solid #24963E;
-  border-radius: 12px;
-  width: 300px;
-  padding-left: 25px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  box-shadow: 0 0 10px #24963E;
+  gap: 2.5dvw;
+  border: 0.5dvh solid #24963E;
+  border-radius: 1.2dvh;
+  width: 25dvw;
+  padding-left: 2.5dvw;
+  padding-top: 0.5dvh;
+  padding-bottom: 0.5dvh;
+  box-shadow: 0 0 1dvh #24963E;
   color: black;
 }
 
@@ -58,116 +56,126 @@ li {
 }
 
 .traco {
-  border-left: 5px solid #007BFF;
-  border-radius: 8px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  border-left: 0.5dvh solid #007BFF;
+  border-radius: 0.8dvh;
+  margin-top: 5dvh;
+  margin-bottom: 5dvh;
 }
 
 .secao {
   display: flex;
   position: relative;
-  left: 100px;
-  top: 100px;
+  left: 10dvw;
+  top: 10dvh;
   height: fit-content;
-  font-size: 48px;
+  font-size: 4.8dvh;
   font-weight: 1000;
-  border: 4px solid #0062CC;
-  border-radius: 25px;
+  border: 0.4dvh solid #0062CC;
+  border-radius: 2.5dvh;
   align-items: center;
-  width: 600px;
-  min-width: 600px;
-  padding: 10px;
-  gap: 100px;
-  box-shadow: 1px 4px 10px #0062CC;
+  width: 50dvw;
+  max-width: 60dvw;
+  padding: 1dvh;
+  gap: 10dvw;
+  box-shadow: 0.1dvh 0.4dvh 1dvh #0062CC;
 }
 
 .secao p {
   color: white;
-  -webkit-text-stroke: 3px #28A745;
-  text-shadow: 0 4px 8px #FFA500;
+  -webkit-text-stroke: 0.3dvh #28A745;
+  text-shadow: 0 0.4dvh 0.8dvh #FFA500;
 }
 
- .circulo {
+.circulo {
   display: flex;
   position: absolute;
-  width: 150px;
-  height: 150px;
+  width: 15dvh;
+  height: 15dvh;
   border-radius: 50%;
   background-color: #28A745;
-  border: 10px solid #3498db;
+  border: 1dvh solid #3498db;
   justify-content: center;
   align-items: center;
-  font-size: 56px;
+  font-size: 5.6dvh;
   font-weight: bold;
   color: #FFA500;
-  padding: 5px;
-  box-shadow:
-    1px 4px 10px #0062CC,
-    inset 0 0 0 7px white;
+  padding: 0.5dvh;
+  box-shadow: 0.1dvh 0.4dvh 1dvh #0062CC, inset 0 0 0 0.7dvh white;
+}
+
+.circulo{
+  
 }
 
 .circulo#n1 {
-  left: 450px;
-  top: 240px;
+  left: 30dvw;
+  top: 24dvh;
+  cursor: pointer;
 }
 
 .circulo#n2 {
-  left: 500px;
-  top: 415px;
+  left: 35dvw;
+  top: 41.5dvh;
 }
 
 .circulo#n3 {
-  left: 600px;
-  top: 575px;
+  left: 43dvw;
+  top: 57.5dvh;
 }
 
 .circulo#n4 {
-  left: 750px;
-  top: 700px;
+  left: 55dvw;
+  top: 70dvh;
 }
 
 .circulo#n5 {
-  left: 950px;
-  top: 775px;
+  left: 70dvw;
+  top: 77.5dvh;
 }
 
-.xp, .ola {
+.xp,
+.ola {
   position: relative;
-  height: 150px;
-  width: 350px;
-  min-width: 350px;
-  top: 300px;
-  border: 5px solid #0062CC;
-  border-radius: 25px;
-  outline: 5px solid #0062CC;
-  outline-offset: 5px;
+  height: 15dvh;
+  width: 40dvw;
+  min-width: 40dvw;
+  top: 30dvh;
+  border: 0.5dvh solid #0062CC;
+  border-radius: 2.5dvh;
+  outline: 0.5dvh solid #0062CC;
+  outline-offset: 0.5dvh;
 }
 
 .xp .ganhe {
-  font-size: 24px;
+  font-size: 2.4dvh;
   font-weight: 200;
   color: #208637;
-  padding: 10px;
+  padding: 1dvh;
 }
 
-.xp .nums, .ola p {
+.xp .nums,
+.ola p {
   display: flex;
   align-items: center;
-  margin: 10px;
-  gap: 5px;
+  margin: 1dvh;
+  gap: 0.5dvh;
 }
 
-.xp .nums p, .ola .nivel {
+.xp .nums p,
+.ola .nivel {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 280px;
-  height: 20px;
+  width: 28dvw;
+  height: 2dvh;
   color: #1E7D34;
-  border: 1px solid #0062CC;
-  border-radius: 10px;
-  font-size: 12px ;
+  border: 0.1dvh solid #0062CC;
+  border-radius: 1dvh;
+  font-size: 1.2dvh;
+}
+
+.xp{
+  right: -2dvw;
 }
 
 .ola {
@@ -175,55 +183,53 @@ li {
   flex-direction: column;
   justify-content: center;
   position: absolute;
-  top: 500px;
-  left: 934px;
+  top: 50dvh;
+  right: -6dvw;
+
 }
 
 .ola .nivel {
-  background: linear-gradient(
-    to right,
-    #2ecc71 65%,
-    #ffffff 75%
-  );
+  background: linear-gradient(to right, #2ecc71 65%, #ffffff 75%);
 }
 
 .ola .hello {
   font-family: Arial, sans-serif;
-  font-size: 24px;
+  font-size: 2.4dvh;
   font-weight: 600;
   color: #208637;
-  padding: 5px;
-  margin: 2px;
+  padding: 0.5dvh;
+  margin: 0.2dvh;
+  
 }
 
 .ola .acompanhe {
   font-family: Arial, sans-serif;
-  padding: 5px;
-  margin: 2px;
+  padding: 0.5dvh;
+  margin: 0.2dvh;
   color: white;
-  -webkit-text-stroke: 1px #006FE6;
+  -webkit-text-stroke: 0.1dvh #006FE6;
 }
 
 .perfil {
   display: flex;
-  position: absolute;
   align-items: center;
-  right: 10dvh;
-  top: 20px;
-  gap: 15px;
+  position: absolute;
+  right: 2dvw;
+  top: 2dvh;
+  gap: 1.5dvw;
 }
 
 .perfil .foto-perfil {
-  width: 50px;
-  height: 50px;
+  width: 5dvh;
+  height: 5dvh;
 }
 
 .perfil .carteira {
-  gap: 10px;
+  gap: 1dvw;
   display: flex;
   justify-content: center;
-  width: 300px;
-  border: 4px solid #24963E;
-  border-radius: 12px;
-  box-shadow: -1px 2px 9px #24963E;
+  width: 30dvw;
+  border: 0.4dvh solid #24963E;
+  border-radius: 1.2dvh;
+  box-shadow: -0.1dvh 0.2dvh 0.9dvh #24963E;
 }

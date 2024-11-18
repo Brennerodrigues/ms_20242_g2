@@ -322,8 +322,8 @@ div#options{
     cursor: pointer;
     
     line-height: 10dvh;
-    text-align: left;
-    
+    text-align: center;
+
     color: black;
     font-size: 5dvh;
     font-family: Inter, sans-serif;
@@ -347,7 +347,6 @@ div#options{
 }
 
 .botao-proximo{
-    padding-left: 9dvh;
     background: #72F210; 
     left: 60dvw;
       
@@ -357,7 +356,6 @@ div#options{
 }
 
 .botao-home{
-    padding-left: 11dvh;
     left: 20dvw;
     background: #EDC114;
 }

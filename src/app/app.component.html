@@ -3,10 +3,10 @@
     <app-login (update)="changeStatus($event)"/>
   </div>
   <div *ngIf="status === 'Exercises'">
-    <app-exercises />
+    <app-exercises (update)="changeStatus($event)"/>
   </div>
-  <div *ngIf="status === 'Home'" style="height: 100%">
-    <app-home />
+  <div *ngIf="status === 'Home'" id="home" style="height: 100%">
+    <app-home (update)="changeStatus($event)"/>
   </div>
 </div>
 
