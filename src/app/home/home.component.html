@@ -11,7 +11,7 @@
         <img src="assets/images/home/logo.png" alt="logo Letra Livre">
       </div>
     </li>
-    <li>
+    <li class="foto">
       <img src="assets/images/home/foto-perfil.png" alt="logo Letra Livre">
     </li>
     <li>
@@ -69,5 +69,13 @@
     </div>
   </div>
 </div>
+<script>
+  const fixedDiv = document.getElementById('perfil');
+
+  // Atualiza a posição da div para "parecer" fixa no topo
+  window.addEventListener('scroll', () => {
+    fixedDiv.style.top = `${window.scrollY}px`;
+  });
+</script>
 </body>
 </html>

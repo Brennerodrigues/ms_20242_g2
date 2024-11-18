@@ -1,7 +1,6 @@
 body {
   background-color: #FFF6E6;
   font-family:  "Arial Black", sans-serif;
-  overflow: hidden;
 }
 
 .content {
@@ -13,11 +12,19 @@ body {
   width: fit-content;
 }
 
+.logo img {
+  width: 250px;
+}
+
 li {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  padding: 18px;
+  padding: 15px;
+}
+
+.menu .foto img {
+  width: 175px;
 }
 
 .menu a img {
@@ -101,35 +108,35 @@ li {
 }
 
 .circulo#n1 {
-  left: 500px;
+  left: 450px;
   top: 240px;
 }
 
 .circulo#n2 {
-  left: 550px;
+  left: 500px;
   top: 415px;
 }
 
 .circulo#n3 {
-  left: 650px;
+  left: 600px;
   top: 575px;
 }
 
 .circulo#n4 {
-  left: 800px;
+  left: 750px;
   top: 700px;
 }
 
 .circulo#n5 {
-  left: 1000px;
+  left: 950px;
   top: 775px;
 }
 
 .xp, .ola {
   position: relative;
   height: 150px;
-  width: 400px;
-  min-width: 400px;
+  width: 350px;
+  min-width: 350px;
   top: 300px;
   border: 5px solid #0062CC;
   border-radius: 25px;
@@ -169,7 +176,7 @@ li {
   justify-content: center;
   position: absolute;
   top: 500px;
-  left: 965px;
+  left: 934px;
 }
 
 .ola .nivel {
@@ -199,9 +206,9 @@ li {
 
 .perfil {
   display: flex;
-  align-items: center;
   position: absolute;
-  left: 1000px;
+  align-items: center;
+  right: 10dvh;
   top: 20px;
   gap: 15px;
 }
