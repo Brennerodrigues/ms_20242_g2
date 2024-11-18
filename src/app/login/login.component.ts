@@ -29,7 +29,7 @@ export class LoginComponent {
                                                     {label:"Senha", imgUrl: "assets/images/login/senha.png"}];
   @Output() update = new EventEmitter<Status>();
   callLoginAction(){
-    const value: Status = 'Exercises';
+    const value: Status = 'Home';
     this.update.emit(value);
   }
 }
