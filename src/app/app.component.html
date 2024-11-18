@@ -5,6 +5,9 @@
   <div *ngIf="status === 'Exercises'">
     <app-exercises />
   </div>
-</div> 
+  <div *ngIf="status === 'Home'" style="height: 100%">
+    <app-home />
+  </div>
+</div>
 
 <router-outlet />
