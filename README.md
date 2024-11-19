@@ -1,18 +1,6 @@
 ### ms_20242_g2
 Repositório definido para a manutenção do controle de versão dos artefatos do projeto de do Grupo 2, da Disciplina de Modelagem de Software, no semestre 2024-2.
 
-### Artefatos:
-[Figma](https://www.figma.com/proto/cdlxkDFUCWSOCDAcvPBAgq/prototipacao?node-id=0-1&t=V0adZ3wwE6ticoEE-1)
-
-[Backlog](https://docs.google.com/file/d/1v8VbRhVpmPviyBCpx6egBrqzOAAum8gS/edit?usp=docslist_api&filetype=msword)
-
-[Site](https://letra-livre.web.app/)
-
-### Diagramas:
-[Diagrama de Classes](https://drive.google.com/file/d/1oelH-rMBq33oVNVw6Kzz6chLlNIFY7O4/view?usp=drivesdk)
-
-[Diagrama de Casos de Uso](https://drive.google.com/file/d/12vcjL6oIulCynR_N-uZyhAb1WK9AESy7/view?usp=sharing)
-
 ### Nome do Projeto:
 Letralivre
 
@@ -76,6 +64,18 @@ A interface é dividida em três áreas principais: um menu de navegação later
 
 ### Local do _Deploy_
 O nosso planejamento inicial é hospedar nossa aplicação no Hander, sendo crucial para nossa escolha a facilidade de configuração e também os recursos ofertados na versão gratuita.
+
+### Artefatos:
+[Figma](https://www.figma.com/proto/cdlxkDFUCWSOCDAcvPBAgq/prototipacao?node-id=0-1&t=V0adZ3wwE6ticoEE-1)
+
+[Backlog](https://docs.google.com/file/d/1v8VbRhVpmPviyBCpx6egBrqzOAAum8gS/edit?usp=docslist_api&filetype=msword)
+
+[Site](https://letra-livre.web.app/)
+
+### Diagramas:
+[Diagrama de Classes](https://drive.google.com/file/d/1oelH-rMBq33oVNVw6Kzz6chLlNIFY7O4/view?usp=drivesdk)
+
+[Diagrama de Casos de Uso](https://drive.google.com/file/d/12vcjL6oIulCynR_N-uZyhAb1WK9AESy7/view?usp=sharing)
 
 ### Cronograma de Desenvolvimento
 
