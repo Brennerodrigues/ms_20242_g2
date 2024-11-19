@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+<div class="content">
+  <ul class="menu">
+    <li>
+      <div class="logo">
+        <img src="assets/images/home/logo.png" alt="logo Letra Livre">
+      </div>
+    </li>
+    <li class="foto">
+      <img src="assets/images/home/foto-perfil.png" alt="logo Letra Livre">
+    </li>
+    <li>
+      <a href="">
+        <img src="assets/images/home/home.png" alt="acesso à home"> Home </a>
+    </li>
+    <li>
+      <a href="">
+        <img src="assets/images/home/music.png" alt="acesso aos sons"> Sons </a>
+    </li>
+    <li>
+      <a href="">
+        <img src="assets/images/home/check.png" alt="acesso às tarefas"> Tarefas </a>
+    </li>
+    <li>
+      <a href="">
+        <img src="assets/images/home/profile.png" alt="acesso ao perfil"> Perfil </a>
+    </li>
+    <ul class="subMenu">
+      <li>
+        <img src="assets/images/home/forum.png" alt="acesso ao forum"> Fórum
+      </li>
+      <li>
+        <img src="assets/images/home/suporte.png" alt="acesso ao perfil"> Suporte
+      </li>
+    </ul>
+  </ul>
+  <div class="traco"></div>
+  <div class="secao">
+    <img src="assets/images/home/seta.png" alt="seta para voltar">
+    <p>Seção 1</p>
+  </div>
+  <div class="circulo" id="n1" (click)="callUnity()">1</div>
+  <div class="circulo" id="n2">2</div>
+  <div class="circulo" id="n3">3</div>
+  <div class="circulo" id="n4">4</div>
+  <div class="circulo" id="n5">5</div>
+  <div id="infos">
+    <div class="xp">
+      <p class="ganhe">Ganhe 20 XP!</p>
+      <div class="nums">
+        <p>0/20</p>
+        <img src="assets/images/home/xp.png" alt="simbolo de xp">
+      </div>
+    </div>
+    <div class="ola">
+      <p class="hello">Ola toboquinha!</p>
+      <p class="acompanhe">Acompanhe seu rendimento!</p>
+      <p class="nivel">7/10</p>
+    </div>
+  </div>
+  <div class="perfil">
+    <img src="assets/images/home/foto-perfil.png" alt="foto do seu perfil" class="foto-perfil">
+    <div class="carteira">
+      <img src="assets/images/home/carteira.png" alt="acesso à carteira">
+      Carteira
+    </div>
+  </div>
+</div>
+<script>
+  const fixedDiv = document.getElementById('perfil');
+
+  // Atualiza a posição da div para "parecer" fixa no topo
+  window.addEventListener('scroll', () => {
+    fixedDiv.style.top = `${window.scrollY}px`;
+  });
+</script>
+</body>
+</html>

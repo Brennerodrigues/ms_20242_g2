@@ -1,0 +1,5 @@
+<div *ngIf="optionModel==1" [ngClass]="{'opcao1':true, 'basicBox':true, 'selected':selected==optID}" (click)="callSelection()">
+    <img [src]=imgSource>
+    <h2>{{optLabel}}</h2>    
+</div>
+<!-- class="basicBox opcao1" -->

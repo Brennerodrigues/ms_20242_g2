@@ -1,0 +1,13 @@
+<div id="app">
+  <div *ngIf="status === 'Login'">
+    <app-login (update)="changeStatus($event)"/>
+  </div>
+  <div *ngIf="status === 'Exercises'">
+    <app-exercises (update)="changeStatus($event)"/>
+  </div>
+  <div *ngIf="status === 'Home'" id="home" style="height: 100%">
+    <app-home (update)="changeStatus($event)"/>
+  </div>
+</div>
+
+<router-outlet />

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Garantir que a página ocupe toda a tela */
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden; /* Impede o scroll */
+        }
+
+        /* Contêiner principal da tela */
+        .container-tela-principal {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            background: #FFF6E6;
+        }
+
+        /* Retângulo central esquerdo */
+        .retangulo-esquerdo {
+            width: 23vw;  /* Largura ajustada para 23% da largura da tela */
+            height: 30vh; /* Altura ajustada para 30% da altura da tela */
+            left: 8vw;    /* Largura ajustada para 8% da largura da tela */
+            top: 30vh;    /* Altura ajustada para 30% da altura da tela */
+            position: absolute;
+            background: #B8B5B5;
+            border-radius: 50px;
+        }
+
+        /* Texto "A - ba - ca - te" */
+        .texto-ba-ca-te {
+            width: 20vw;
+            height: 5vh;
+            left: 11vw;
+            top: 54vh;
+            position: absolute;
+            color: black;
+            font-size: 3vw;
+            font-family: Paytone One;
+            font-weight: 400;
+            
+        }
+
+        /* Retângulo central direito */
+        .retangulo-direito {
+            width: 23vw;
+            height: 30vh;
+            left: 68vw;  /* Largura ajustada para 68% da largura da tela */
+            top: 30vh;
+            position: absolute;
+            background: #B8B5B5;
+            border-radius: 50px;
+        }
+
+        /* Texto "A - çú - car" */
+        .texto-a-car {
+            left: 70vw;
+            top: 52vh;
+            position: absolute;
+            color: black;
+            font-size: 4vw;
+            font-family: Paytone One;
+            font-weight: 400;
+            word-wrap: break-word;
+        }
+
+        /* Emojis (representando um abacate) */
+        .emoji-abacate {
+            width: 21vw;
+            height: 20vh;
+            left: 8vw;
+            top: 34vh;
+            position: absolute;
+        }
+
+        .grupo-abacate {
+            width: 15vw;
+            height: 18vh;
+            left: 5vw;
+            top: 0vh;
+            position: absolute;
+        }
+
+        .grupo-abacate img {
+            width: 80%;
+            height: auto;
+        }
+
+        /* Ícone de seta para a direita */
+        .icone-seta-direita {
+            width: 5vw;
+            height: 5vh;
+            left: 49vw; /* Centralizado */
+            top: 2vh;
+            position: absolute;
+        }
+
+        .icone-seta-direita img {
+            width: 60%;
+            height: auto;
+        }
+
+        /* Ícone de seta para a esquerda */
+        .icone-seta-esquerda {
+            width: 5vw;
+            height: 5vh;
+            left: 45vw; /* Posição ajustada para antes da seta direita */
+            top: 2vh;
+            position: absolute;
+        }
+
+        .icone-seta-esquerda img {
+            width:60%;
+            height: auto;
+        }
+
+        /* Ícone de fechar */
+        .icone-fechar {
+            width: 5vw;
+            height: 5vh;
+            left: 4vw;
+            top: 7.5vh;
+            position: absolute;
+        }
+
+        .icone-fechar img {
+            width: 60%;
+            height: auto;
+        }
+
+        /* Barra de título superior */
+        .barra-titulo {
+            width: 75vw;
+            height: 3vh;
+            left: 8vw;
+            top: 9vh;
+            position: absolute;
+            background: linear-gradient(90deg, #DDDBE4 100%, #72F210 100%);
+            border-radius: 50px;
+            border: 3px black solid;
+        }
+
+        /* Ícone de açúcar */
+        .icone-acucar {
+            width: 24vw;
+            height: 24vh;
+            left: 69vw;
+            top: 24vh;
+            position: absolute;
+        }
+
+        .grupo-acucar {
+            width: 21vw;
+            height: 13vh;
+            left: 3vw;
+            top: 6vh;
+            position: absolute;
+        }
+
+        .vetor-branco-5 {
+            width: 10vw;
+            height: 20vh;
+            left: -2vw;
+            top: -20%;
+            position: absolute;
+        }
+
+        .grupo-acucar img {
+            width: 180%;
+            height: auto;
+        }
+
+        /* Retângulo inferior */
+        .retangulo-inferior {
+            width: 15vw;
+            height: 10vh;
+            left: 45vw;
+            top: 85vh;
+            position: absolute;
+            background: #72F210;
+            border-radius: 50px;
+        }
+
+        /* Marca de seleção */
+        .marca-selecao {
+            width: 6vw;
+            height: 7vh;
+            left: 50vw;
+            top: 82vh;
+            position: absolute;
+        }
+
+        .marca-selecao img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Retângulo central */
+        .retangulo-central {
+            width: 23vw;
+            height: 30vh;
+            left: 39vw;
+            top: 30vh;
+            position: absolute;
+            background: #B8B5B5;
+            border-radius: 50px;
+        }
+
+        /* Ícone de gota de água */
+        .icone-gota-agua {
+            width: 15vw;
+            height: 20vh;
+            left: 44vw;
+            top: 32vh;
+            position: absolute;
+        }
+
+        .icone-gota-agua img {
+            width: 80%;
+            height: auto;
+        }
+
+        /* Texto "Á - gua" */
+        .texto-a-gua {
+            left: 45vw;
+            top: 52vh;
+            position: absolute;
+            color: black;
+            font-size: 4vw;
+            font-family: Paytone One;
+            font-weight: 400;
+            word-wrap: break-word;
+        }
+
+        /* Linha de separação */
+        .linha-separacao {
+            width: 85vw;
+            height: 0;
+            left: 7vw;
+            top: 78vh;
+            position: absolute;
+            border: 4px black solid;
+        }
+    </style>
+</head>
+<body>
+    <!-- Contêiner principal da tela -->
+    <div class="container-tela-principal">
+        <!-- Retângulo central esquerdo -->
+        <div class="retangulo-esquerdo"></div>
+        
+        <!-- Texto "A - ba - ca - te" -->
+        <div class="texto-ba-ca-te">A - ba - ca - te</div>
+        
+        <!-- Retângulo central direito -->
+        <div class="retangulo-direito"></div>
+        
+        <!-- Texto "A - çú - car" -->
+        <div class="texto-a-car">A - çú - car</div>
+        
+        <!-- Emojis (representando um abacate) -->
+        <div class="emoji-abacate">
+            <div class="grupo-abacate">
+                <img src="img/avocado.png" alt="informacao atividade">
+            </div>
+        </div>
+        
+        <!-- Ícone de seta para a direita -->
+        <div class="icone-seta-direita">
+            <img src="img/setadireita.png" alt="informacao atividade">
+        </div>
+        
+        <!-- Ícone de seta para a esquerda -->
+        <div class="icone-seta-esquerda">
+            <img src="img/setaesquerda.png" alt="informacao atividade">
+        </div>
+        
+        <!-- Ícone de fechar -->
+        <div class="icone-fechar">
+            <img src="img/x.png" alt="informacao atividade">
+        </div>
+        
+        <!-- Barra de título superior -->
+        <div class="barra-titulo"></div>
+        
+        <!-- Ícone de açúcar -->
+        <div class="icone-acucar">
+            <div class="grupo-acucar">
+                <div class="vetor-branco-5">
+                    <img src="img/sugar.png" alt="informacao atividade">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Retângulo inferior -->
+        <div class="retangulo-inferior"></div>
+        
+        <!-- Marca de seleção -->
+        <div class="marca-selecao">
+            <img src="img/check.png" alt="informacao atividade">
+        </div>
+        
+        <!-- Retângulo central -->
+        <div class="retangulo-central"></div>
+        
+        <!-- Ícone de gota de água -->
+        <div class="icone-gota-agua">
+            <img src="img/water.png" alt="informacao atividade">
+        </div>
+        
+        <!-- Texto "Á - gua" -->
+        <div class="texto-a-gua">Á - gua</div>
+        
+        <!-- Linha de separação -->
+        <div class="linha-separacao"></div>
+    </div>
+</body>
+</html>

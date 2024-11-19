@@ -1,0 +1,107 @@
+
+<div [ngClass]="{'container-tela-principal':true, 'won':mode=='Win', 'miss':mode=='Miss'}">
+    <div *ngIf="mode!='Info' && mode!='Finish'">
+
+        <div id="exNavigation">
+            <div id="arrows">
+                <!-- Ícone de seta para a direita -->
+                <div class="icone-seta-direita">
+                    <img src="assets/images/exercises/setadireita.png" alt="informacao atividade">
+                </div>
+                
+                <!-- Ícone de seta para a esquerda -->
+                <div class="icone-seta-esquerda">
+                    <img src="assets/images/exercises/setaesquerda.png" alt="informacao atividade">
+                </div>
+            </div>
+            
+            <!-- Ícone de fechar -->
+            <div class="icone-fechar">
+                <img src="assets/images/exercises/x.png" alt="informacao atividade" (click)="mode='Info'">
+            </div>
+            
+                
+            <!-- Barra de título superior -->
+            <div class="barra-titulo">
+                <div id="progress"></div>
+            </div>
+        </div>
+            
+        <div id="congrats" *ngIf="mode=='Win'">
+            Parabéns! 🎉
+        </div>
+        <div id="tryAgain" *ngIf="mode=='Miss'">
+            Tente Novamente. 🤔
+        </div>
+
+        <div id="options">
+            <ex-option *ngFor="let i of actOptions[activityID[0]][activityID[1]-1]; let id = index" 
+                        [optID]="id" [selected]="selectedOption" (select)="updateSelected($event)"
+                        [optLabel]="i[0]" [imgSource]="'assets/images/exercises/atividade'+activityID[0]+'/'+i[1]"/>
+        </div>
+        
+        <ex-button *ngIf="mode=='Doing'" [typeButton]="'Marcar'" [action]=updateMode/>
+        <ex-button *ngIf="mode=='Win'" [typeButton]="'Continuar'" [action]=getNextEx/>
+        <ex-button *ngIf="mode=='Miss'" [typeButton]="'Refazer'" [action]=retry/>
+        
+        <!-- Linha de separação -->
+        <div class="linha-separacao"></div>
+    </div>
+    <div class="tela-principal" *ngIf="mode=='Finish' || mode=='Info'">
+        <!-- Retângulo com borda e sombra -->
+        <div class="retangulo-borda-sombra">
+            <!-- Título da Seção 1, Unidade 1 -->
+            <div class="titulo-secao-unidade">Seção 1, Unidade {{activityID[0]}}</div>
+
+        </div>
+
+
+        <!-- Descrição sobre a atividade -->
+        <div class="descricao-atividade" *ngIf="mode=='Info'">
+            Nessa unidade o aluno deverá selecionar o item comestivo com três sílabas!
+        </div>
+        <div class="descricao-atividade" *ngIf="mode=='Finish'">
+            Unidade concluída com sucesso!!
+        </div>
+
+        <!-- Observação para o professor -->
+        <div class="observacao-professor"  *ngIf="mode=='Info'">
+            Obs: o professor deve inicializar a atividade e repassá-la ao aluno após a inicialização.
+        </div>
+        <div class="observacao-professor" *ngIf="mode=='Finish'">
+            O professor deve analisar o desenvolvimento do aluno conforme a quantidade de tentativas em cada exercícios.
+        </div>
+
+        <div *ngIf="mode=='Info'">
+            <!-- Botão de Iniciar -->
+            <div class="botao-iniciar" (click)="mode='Doing'; actProgress=0;">Iniciar</div>
+        </div>
+        <div *ngIf="mode=='Finish'">
+            <div class="botao-home"  (click)="goBackHome()">Home
+                <img src="assets/images/exercises/home.png">
+            </div>
+            <!-- <div class="botao-proximo" (click)="pullNextActivity()">Próximo -->
+            <div class="botao-proximo" (click)="goBackHome()">Próximo
+                <img src="assets/images/exercises/arrow2.png">
+            </div>
+            <img id="happyFace" src="assets/images/exercises/happyFace.png" alt="atividade concluída">
+        </div>
+        
+
+        <!-- Ícone de fechar -->
+        <div class="icone-fechar">
+            <img src="assets/images/exercises/x.png" alt="informacao atividade" (click)="goBackHome()">
+        </div>
+        <!-- Ícone de seta para a direita -->
+        <div class="icone-seta-direita">
+            <img src="assets/images/exercises/setadireita.png" alt="informacao atividade">
+        </div>
+        
+        <!-- Ícone de seta para a esquerda -->
+        <div class="icone-seta-esquerda">
+            <img src="assets/images/exercises/setaesquerda.png" alt="informacao atividade">
+        </div>
+   </div>
+</div>
+
+
