@@ -9,9 +9,9 @@ Repositório definido para a manutenção do controle de versão dos artefatos d
 [Site](https://letra-livre.web.app/)
 
 ### Diagramas:
-[Diagrama de classes](https://drive.google.com/file/d/1oelH-rMBq33oVNVw6Kzz6chLlNIFY7O4/view?usp=drivesdk)
+[Diagrama de Classes](https://drive.google.com/file/d/1oelH-rMBq33oVNVw6Kzz6chLlNIFY7O4/view?usp=drivesdk)
 
-[Diagrama de casos de uso](https://drive.google.com/file/d/12vcjL6oIulCynR_N-uZyhAb1WK9AESy7/view?usp=sharing)
+[Diagrama de Casos de Uso](https://drive.google.com/file/d/12vcjL6oIulCynR_N-uZyhAb1WK9AESy7/view?usp=sharing)
 
 ### Nome do Projeto:
 Letralivre
