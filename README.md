@@ -8,6 +8,8 @@ Repositório definido para a manutenção do controle de versão dos artefatos d
 
 [Backlog](https://docs.google.com/file/d/1v8VbRhVpmPviyBCpx6egBrqzOAAum8gS/edit?usp=docslist_api&filetype=msword)
 
+[Site](https://letra-livre.web.app/)
+
 ### Nome do Projeto:
 Letralivre
 
