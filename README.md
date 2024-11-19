@@ -77,6 +77,10 @@ O nosso planejamento inicial é hospedar nossa aplicação no GitHub pages, send
 
 [Diagrama de Casos de Uso](https://drive.google.com/file/d/12vcjL6oIulCynR_N-uZyhAb1WK9AESy7/view?usp=sharing)
 
+### Slides Apresentação
+[Canva](https://www.canva.com/design/DAGWyv9WWhI/g7_76yJU7ZbmtRWm6se3_g/edit?utm_content=DAGWyv9WWhI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+
 ### Cronograma de Desenvolvimento
 
 |Iteração|Descrição|Data Início|Data Fim|Responsável|Situação|
