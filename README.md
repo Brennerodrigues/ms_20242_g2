@@ -63,7 +63,7 @@ O modelo de interfaces gráficas deste produto visa oferecer uma experiência de
 A interface é dividida em três áreas principais: um menu de navegação lateral, uma área de conteúdo central e uma barra superior com informações contextuais e botões de ação rápida. O layout é responsivo, adaptando-se bem a diferentes tamanhos de tela, de desktops a dispositivos móveis.
 
 ### Local do _Deploy_
-O nosso planejamento inicial é hospedar nossa aplicação no Hander, sendo crucial para nossa escolha a facilidade de configuração e também os recursos ofertados na versão gratuita.
+O nosso planejamento inicial é hospedar nossa aplicação no GitHub pages, sendo crucial para nossa escolha a facilidade de configuração e também os recursos ofertados na versão gratuita.
 
 ### Artefatos:
 [Figma](https://www.figma.com/proto/cdlxkDFUCWSOCDAcvPBAgq/prototipacao?node-id=0-1&t=V0adZ3wwE6ticoEE-1)
