@@ -77,10 +77,11 @@
             <div class="botao-iniciar" (click)="mode='Doing'; actProgress=0;">Iniciar</div>
         </div>
         <div *ngIf="mode=='Finish'">
-            <div class="botao-home">Home
+            <div class="botao-home"  (click)="goBackHome()">Home
                 <img src="assets/images/exercises/home.png">
             </div>
-            <div class="botao-proximo" (click)="pullNextActivity()">Próximo
+            <!-- <div class="botao-proximo" (click)="pullNextActivity()">Próximo -->
+            <div class="botao-proximo" (click)="goBackHome()">Próximo
                 <img src="assets/images/exercises/arrow2.png">
             </div>
             <img id="happyFace" src="assets/images/exercises/happyFace.png" alt="atividade concluída">

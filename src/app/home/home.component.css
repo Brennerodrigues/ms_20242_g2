@@ -1,6 +1,7 @@
 body {
   background-color: #FFF6E6;
   font-family: "Arial Black", sans-serif;
+  /* overflow: hidden; */
 }
 
 .content {
@@ -133,12 +134,21 @@ li {
   top: 77.5dvh;
 }
 
+#infos{
+  position: relative;
+  margin-top: 25dvh;
+  margin-right: 8dvw;
+  /* overflow: hidden; */
+}
+
 .xp,
 .ola {
-  position: relative;
+  margin-right: -2dvw;
+  /* position: absolute; */
+  margin-top: 4dvh;
   height: 15dvh;
-  width: 40dvw;
-  min-width: 40dvw;
+  width: 30dvw;
+  max-width: 40dvw;
   top: 30dvh;
   border: 0.5dvh solid #0062CC;
   border-radius: 2.5dvh;
@@ -182,7 +192,7 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: absolute;
+  /* position: absolute; */
   top: 50dvh;
   right: -6dvw;
 

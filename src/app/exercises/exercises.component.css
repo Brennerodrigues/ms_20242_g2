@@ -9,7 +9,7 @@ html, body {
 
 /* Contêiner principal da tela */
 .container-tela-principal {
-    width: 201.4dvh;
+    width: 100dvw;
     height: 100dvh;
     position: relative;
     box-sizing: border-box;
@@ -322,7 +322,8 @@ div#options{
     cursor: pointer;
     
     line-height: 10dvh;
-    text-align: center;
+    text-align: left;
+    padding-left: 4dvw;
 
     color: black;
     font-size: 5dvh;
