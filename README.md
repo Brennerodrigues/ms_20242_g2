@@ -77,7 +77,7 @@ O nosso planejamento inicial é hospedar nossa aplicação no GitHub pages, send
 
 [Diagrama de Casos de Uso](https://drive.google.com/file/d/12vcjL6oIulCynR_N-uZyhAb1WK9AESy7/view?usp=sharing)
 
-### Slides Apresentação
+### Slides Apresentação:
 [Canva](https://www.canva.com/design/DAGWyv9WWhI/g7_76yJU7ZbmtRWm6se3_g/edit?utm_content=DAGWyv9WWhI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
@@ -92,7 +92,7 @@ O nosso planejamento inicial é hospedar nossa aplicação no GitHub pages, send
 |5|Item do backlog <3>|08/10/2024|15/11/2024|Grupo 7|Concluída|
 |6|Item do backlog <4>|22/10/2024|29/10/2024|Grupo 7|Concluída|
 |7|Item do backlog <5>|05/11/2024|12/11/2024|Grupo 7|Concluída|
-|8|Apresentação do Projeto|19/11/2024|26/11/2024|Grupo 7|Programada|
+|8|Apresentação do Projeto|19/11/2024|26/11/2024|Grupo 7|Concluída|
 
 ### Iterações x Atividades
 |Iteração|Tarefa|Data Início|Data Fim|Responsável|Situação|
@@ -105,35 +105,35 @@ O nosso planejamento inicial é hospedar nossa aplicação no GitHub pages, send
 |2|Definição do modelo arquitetural|00/00/2024|00/00/2024|Grupo 7|Concluída|
 |3|Especificação de estórias de usuários dos Item(ns) do backlog <1>|10/09/2024|17/09/2024|Grupo 7|Concluída|
 |3|Diagrama de classes dos Item(ns) do backlog <1>|10/09/2024|17/09/2024|Grupo 7|Concluída|
-|3|Diagrama de interação/sequencia dos itens do backlog <1>|10/09/2024|17/09/2024|Grupo 7|Desnecessario|
+|3|Diagrama de interação/sequencia dos itens do backlog <1>|10/09/2024|17/09/2024|Grupo 7|Desnecessário|
 |3|Projeto de Interfaces gráficas dos itens do backlog <1>|10/09/2024|17/09/2024|Grupo 7|Concluída|
 |3|Projeto de persistência dos itens do backlog <1>|10/09/2024|17/09/2024|Grupo 7|Concluída|
 |3|Implementação dos itens do backlog <1>*|10/09/2024|17/09/2024|Grupo 7|Concluída|
 |4|Especificação de estórias de usuários dos Item(ns) do backlog <2>|24/09/2024|01/10/2024|Grupo 7|Concluída|
 |4|Diagrama de classes dos Item(ns) do backlog <2>|24/09/2024|01/10/2024|Grupo 7|Concluída|
-|4|Diagrama de interação/sequencia dos itens do backlog <2>|24/09/2024|01/10/2024|Grupo 7|Desnecessario|
+|4|Diagrama de interação/sequencia dos itens do backlog <2>|24/09/2024|01/10/2024|Grupo 7|Desnecessário|
 |4|Projeto de Interfaces gráficas dos itens do backlog <2>|24/09/2024|01/10/2024|Grupo 7|Concluída|
 |4|Projeto de persistência dos itens do backlog <2>|24/09/2024|01/10/2024|Grupo 7|Concluída|
 |4|Implementação dos itens do backlog <2>*|24/09/2024|01/10/2024|Grupo 7|Concluída|
 |5|Especificação de estórias de usuários dos Item(ns) do backlog <3>|08/10/2024|15/11/2024|Grupo 7|Concluída|
 |5|Diagrama de classes dos Item(ns) do backlog <3>|08/10/2024|15/11/2024|Grupo 7|Concluída|
-|5|Diagrama de interação/sequencia dos itens do backlog <3>|08/10/2024|15/11/2024|Grupo 7|Desnecessario|
+|5|Diagrama de interação/sequencia dos itens do backlog <3>|08/10/2024|15/11/2024|Grupo 7|Desnecessário|
 |5|Projeto de Interfaces gráficas dos itens do backlog <3>|08/10/2024|15/11/2024|Grupo 7|Concluída|
 |5|Projeto de persistência dos itens do backlog <3>|08/10/2024|15/11/2024|Grupo 7|Concluída|
 |5|Implementação dos itens do backlog <3>*|08/10/2024|15/11/2024|Grupo 7|Concluída|
 |6|Especificação de estórias de usuários dos Item(ns) do backlog <4>|22/10/2024|29/10/2024|Grupo 7|Concluída|
 |6|Diagrama de classes dos Item(ns) do backlog <4>|22/10/2024|29/10/2024|Grupo 7|Concluída|
-|6|Diagrama de interação/sequencia dos itens do backlog <4>|22/10/2024|29/10/2024|Grupo 7|Desnecessario|
+|6|Diagrama de interação/sequencia dos itens do backlog <4>|22/10/2024|29/10/2024|Grupo 7|Desnecessário|
 |6|Projeto de Interfaces gráficas dos itens do backlog <4>|22/10/2024|29/10/2024|Grupo 7|Concluída|
 |6|Projeto de persistência dos itens do backlog <4>|22/10/2024|29/10/2024|Grupo 7|Concluída|
 |6|Implementação dos itens do backlog <4>*|22/10/2024|29/10/2024|Grupo 7|Concluída|
 |7|Especificação de estórias de usuários dos Item(ns) do backlog <5>|05/11/2024|12/11/2024|Grupo 7|Concluída|
 |7|Diagrama de classes dos Item(ns) do backlog <5>|05/11/2024|12/11/2024|Grupo 7|Concluída|
-|7|Diagrama de interação/sequencia dos itens do backlog <5>|05/11/2024|12/11/2024|Grupo 7|Desnecessario|
+|7|Diagrama de interação/sequencia dos itens do backlog <5>|05/11/2024|12/11/2024|Grupo 7|Desnecessário|
 |7|Projeto de Interfaces gráficas dos itens do backlog <5>|05/11/2024|12/11/2024|Grupo 7|Concluída|
 |7|Projeto de persistência dos itens do backlog <5>|05/11/2024|12/11/2024|Grupo 7|Concluída|
 |7|Implementação dos itens do backlog <5>*|05/11/2024|12/11/2024|Grupo 7|Concluída|
-|8|Apresentação do Projeto|19/11/2024|26/11/2024|Grupo 7|Indefinida|
+|8|Apresentação do Projeto|19/11/2024|26/11/2024|Grupo 7|Concluída|
 
 * Implementação se aplicará, se os itens da iteração em andamento, forem eleitos para validação do projeto do trabalho.
 
