@@ -73,9 +73,9 @@ O nosso planejamento inicial é hospedar nossa aplicação no GitHub pages, send
 [Site](https://letra-livre.web.app/)
 
 ### Diagramas:
-[Diagrama de Classes](https://drive.google.com/file/d/1oelH-rMBq33oVNVw6Kzz6chLlNIFY7O4/view?usp=drivesdk)
+[Diagrama de Classes](https://drive.google.com/file/d/19PlsVAKYDdZfX4kg8t86mc2ILrZKyZsk/view?usp=drivesdk)
 
-[Diagrama de Casos de Uso](https://drive.google.com/file/d/12vcjL6oIulCynR_N-uZyhAb1WK9AESy7/view?usp=sharing)
+[Diagrama de Casos de Uso](https://drive.google.com/file/d/1C5ZBFr2MFJMHYkjNVVTMPcl8UOJr_DG_/view?usp=drivesdk)
 
 ### Slides Apresentação:
 [Canva](https://www.canva.com/design/DAGWyv9WWhI/g7_76yJU7ZbmtRWm6se3_g/edit?utm_content=DAGWyv9WWhI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
